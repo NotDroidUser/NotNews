@@ -1,0 +1,42 @@
+plugins {
+    alias(libs.plugins.android.library)
+    alias(libs.plugins.kotlin.android)
+    alias(libs.plugins.kotlin.ksp)
+}
+
+android {
+    namespace 'com.notdroid.notnews.db'
+    compileSdk 36
+
+
+    defaultConfig {
+        minSdk 24
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles "consumer-rules.pro"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+    kotlinOptions {
+        jvmTarget = '11'
+    }
+}
+
+dependencies {
+    // Implementation of the db
+    implementation libs.room.runtime
+    implementation libs.room.common
+    implementation libs.room.ktx
+    ksp libs.room.compiler
+    implementation libs.androidx.core.ktx
+    testImplementation libs.junit
+}

@@ -1,0 +1,1280 @@
+{
+  "status": "ok",
+  "totalResults": 264,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "VentureBeat"
+      },
+      "author": "Dean Takahashi",
+      "title": "Ansys says simulations will close the gap with reality and make the world more sustainable",
+      "description": "You may not have heard of Ansys, but it's in the process of being acquired by chip design tool firm Synopsys for $35 billion.",
+      "url": "https://venturebeat.com/games/ansys-says-simulations-will-close-the-gap-with-reality-and-make-the-world-more-sustainable/",
+      "urlToImage": "https://venturebeat.com/wp-content/uploads/2025/02/top.jpg?w=1024?w=1200&strip=all",
+      "publishedAt": "2025-02-11T13:00:00Z",
+      "content": "Join our daily and weekly newsletters for the latest updates and exclusive content on industry-leading AI coverage. Learn More\r\nYou may not have heard of Ansys, but its in the process of being acquir… [+18745 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Yahoo Entertainment"
+      },
+      "author": "Sean Burch",
+      "title": "BuzzFeed CEO Says AI ‘Destroyed the Internet,’ Plans New Social App for ‘Human Creativity Fighting Against the Machine’",
+      "description": "Jonah Peretti says his sites will double down on human curation and that he will soon be launching a new social app The post BuzzFeed CEO Says AI ‘Destroyed ...",
+      "url": "https://www.yahoo.com/news/buzzfeed-ceo-says-ai-destroyed-173606708.html",
+      "urlToImage": "https://media.zenfs.com/en/thewrap.com/58791b5d6507adf4c4e88f9fcf8357b0",
+      "publishedAt": "2025-02-11T17:36:06Z",
+      "content": "BuzzFeed founder and CEO Jonah Peretti on Tuesday said Big Tech companies like Meta and TikTok, as well as the emergence of artificial intelligence, “destroyed the internet.”\r\nAt the same time, Peret… [+3031 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Daringfireball.net"
+      },
+      "author": "John Gruber",
+      "title": "★ Fox’s New Scorebug Graphic Design, and Our Innate Resistance to Change",
+      "description": "Different doesn’t always mean better. But better necessarily implies different.",
+      "url": "https://daringfireball.net/2025/02/fox_new_scorebug_graphic_design",
+      "urlToImage": "https://daringfireball.net/graphics/df-wide-card.png",
+      "publishedAt": "2025-02-11T04:21:47Z",
+      "content": "A scorebug is industry jargon for the sub-genre of chyron (itself jargon) that shows ever-present information about a televised sporting event while you’re watching. These graphics display the teams,… [+15036 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Hlsl.co.uk"
+      },
+      "author": "Tim",
+      "title": "Elementary Functions and Not Following the IEEE754 Floating-Point Standard(2020)",
+      "description": "The  IEEE-754  Standard for floating-point numbers was introduced initially in 1985 to solve the problem of diverse floating point implementations prevent code being portable and increase stability across platforms.  It has been widely adopted and revised ove…",
+      "url": "http://www.hlsl.co.uk/blog/2020/1/29/ieee754-is-not-followed",
+      "urlToImage": "http://static1.squarespace.com/static/527a1723e4b0f6a5f0900aff/t/5e3176a10f6dd313bf60dc2f/1580299946461/MSVCSinError.png?format=1500w",
+      "publishedAt": "2025-02-11T01:50:21Z",
+      "content": "The IEEE-754 Standard for floating-point numbers was introduced initially in 1985 to solve the problem of diverse floating point implementations prevent code being portable and increase stability acr… [+2215 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Jackkelly.name"
+      },
+      "author": null,
+      "title": "How Copyover MUD Servers Worked",
+      "description": "Comments",
+      "url": "http://jackkelly.name/blog/archives/2025/02/06/how_copyover_mud_servers_worked/",
+      "urlToImage": null,
+      "publishedAt": "2025-02-11T01:19:14Z",
+      "content": "When I was younger, I played a lot of MUDs (Multi-User\r\nDungeons the text-only predecessors of modern MMORPGs, often\r\nplayed over Telnet).\r\nThey were great fun, particularly during high school: a lig… [+5169 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Gamedeveloper.com"
+      },
+      "author": null,
+      "title": "Postmortem: The singular design of Namco's Katamari Damacy (2004)",
+      "description": "Read the postmortem originally published in the December 2004 issue of Game Developer.",
+      "url": "https://www.gamedeveloper.com/design/postmortem-the-singular-design-of-namco-s-katamari-damacy-2004-",
+      "urlToImage": "https://eu-images.contentstack.com/v3/assets/blt740a130ae3c5d529/blt675f149cc038eb59/6765ed135684e0832ab298f2/Game_Developer_Magazine_Cover_December_2004.png?disable=upscale&width=1200&height=630&fit=crop",
+      "publishedAt": "2025-02-11T17:34:31Z",
+      "content": "We recently received a request to publish the Katamari Damacy postmortem from the December 2004 issue of Game Developer. It has been posted here in full for the first time in 2024 to celebrate the ga… [+17946 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Silent.org.pl"
+      },
+      "author": "Paweł Zadrożniak",
+      "title": "The Floppotron 3.0 (2022)",
+      "description": "Comments",
+      "url": "https://silent.org.pl/home/2022/06/13/the-floppotron-3-0/",
+      "urlToImage": null,
+      "publishedAt": "2025-02-11T01:02:48Z",
+      "content": "After a long time it’s time for a big upgrade of my computer hardware orchestra. Here it is! The bigger and better Floppotron 3.0. 512 floppy disk drives, 4 scanners and 16 hard disk drives.\r\nMy nois… [+18686 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Cheezburger.com"
+      },
+      "author": "Remy Millisky, Remy Millisky",
+      "title": "‘There’s an axolotl on the pink stairs': Why the internet is suddenly embracing random children’s songs and parents should stay wary",
+      "description": "Until recently, I bet you had no idea what an axolotl was or even how to pronounce the word. Well, excellent news: The axolotl (pronounced ax-oh-lot-uhl) is an adorable little salamander. And the reason it's having its 15 minutes of fame is all thanks to a ca…",
+      "url": "https://cheezburger.com/31108359/theres-an-axolotl-on-the-pink-stairs-why-the-internet-is-suddenly-embracing-random-childrens-songs",
+      "urlToImage": "https://i.chzbgr.com/thumb1200/31108359/h39D16A87/parenting-axolotl-songs-videos-kids-children-snoop-dogg-tiktok-viral-tiktok",
+      "publishedAt": "2025-02-11T20:00:00Z",
+      "content": "For many online childrens media channels, the main goal is to keep childrens eyes on the screen\r\n, while educational content is a secondary factor. The American Academy of Pediatrics suggests that ki… [+3582 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Rolling Stone"
+      },
+      "author": "Jon Blistein",
+      "title": "Justin Baldoni Says He ‘Wasn’t In the Best Place’ After ‘Intense’ ‘It Ends With Us’ Year",
+      "description": "The actor/filmmaker said he still hadn't \"given myself time to recover\" in a newly released interview recorded before Blake Lively's lawsuit",
+      "url": "http://www.rollingstone.com/tv-movies/tv-movie-news/justin-baldoni-exhausted-it-ends-with-us-1235263162/",
+      "urlToImage": "https://www.rollingstone.com/wp-content/uploads/2025/02/GettyImages-2165985617.jpg?w=1600&h=900&crop=1",
+      "publishedAt": "2025-02-11T14:19:00Z",
+      "content": "Justin Baldoni admitted he was “not in the best place” after what he described as “an intense year” in a podcast interview he recorded last November — before the start of his legal dispute with It En… [+2014 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Phys.Org"
+      },
+      "author": "National Research Council of Science and Technology",
+      "title": "AI predicts the precursor materials needed for material synthesis",
+      "description": "Researchers in Korea have developed a technology that automatically identifies the necessary precursor materials to synthesize specific target materials.",
+      "url": "https://phys.org/news/2025-02-ai-precursor-materials-material-synthesis.html",
+      "urlToImage": "https://scx2.b-cdn.net/gfx/news/hires/2025/ai-predicts-the-precur.jpg",
+      "publishedAt": "2025-02-11T17:32:04Z",
+      "content": "Researchers in Korea have developed a technology that automatically identifies the necessary precursor materials to synthesize specific target materials.\r\nA joint research team led by Senior Research… [+4181 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Oreilly.com"
+      },
+      "author": "Mike Loukides",
+      "title": "Preparing for AI",
+      "description": "Submit a proposal for a talk at our new virtual conference, Coding with AI: The End of Software Development as We Know It. Proposals must be submitted by March 5; the conference will take place April 24, 2025, from 11AM to 3PM EDT. When tools like GitHub Copi…",
+      "url": "https://www.oreilly.com/radar/preparing-for-ai-2/",
+      "urlToImage": "https://www.oreilly.com/radar/wp-content/uploads/sites/3/2019/06/robot-3385181_1920_crop-0685092de76284ba7d2978c97ef1e050-1.jpg",
+      "publishedAt": "2025-02-11T13:15:13Z",
+      "content": "Submit a proposal for a talk at our new virtual conference, Coding with AI: The End of Software Development as We Know It. Proposals must be submitted by March 5; the conference will take place April… [+17735 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Hollywood Reporter"
+      },
+      "author": "Mia Galuppo",
+      "title": "BUZZFEEDS's New Strategy: An AI-Powered Social Media Platform to Help 'Spread Joy'...",
+      "description": "BUZZFEEDS's New Strategy: An AI-Powered Social Media Platform to Help 'Spread Joy'...\r\n\n \n \n \n (Second column, 7th story, link)\r\n\n \r\n\n \r\n\n \n \n Drudge Report Feed needs your support!   Become a Patron",
+      "url": "http://www.hollywoodreporter.com/business/business-news/jonah-peretti-tiktok-meta-buzzfeed-social-media-1236132267/",
+      "urlToImage": "https://www.hollywoodreporter.com/wp-content/uploads/2025/02/GettyImages-1357536456.jpg?crop=0px%2C69px%2C5467px%2C3062px&resize=1440%2C810",
+      "publishedAt": "2025-02-11T16:19:37Z",
+      "content": "BuzzFeed Inc. head Jonah Peretti says he wants to make the Internet fun again; and, after years of relying on social media companies to deliver his media empire’s content to audiences, BuzzFeed will … [+19411 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Deadline"
+      },
+      "author": "Dade Hayes",
+      "title": "Hello Sunshine & Lyda Hill Philanthropies’ IF/THEN Initiative Team On Film And TV Slate Focused On Women And Girls In STEM Fields",
+      "description": "EXCLUSIVE: Reese Witherspoon-backed production outfit Hello Sunshine has set a multi-year partnership with Lyda Hill Philanthropies’ IF/THEN Initiative to make projects about women and girls in science, technology, engineering and math (STEM). Hello Sunshine,…",
+      "url": "http://deadline.com/2025/02/hello-sunshine-lyda-hill-philanthropies-film-tv-women-girls-stem-1236284368/",
+      "urlToImage": "https://deadline.com/wp-content/uploads/2025/02/Hello-Sunshine-and-Lyda-Hills-IF-THEN-Partner.jpg?w=1024",
+      "publishedAt": "2025-02-11T14:00:00Z",
+      "content": "EXCLUSIVE: Reese Witherspoon-backed production outfit Hello Sunshine has set a multi-year partnership with Lyda Hill Philanthropies’ IF/THEN Initiative to make projects about women and girls in scien… [+1872 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Deadline"
+      },
+      "author": "Dade Hayes",
+      "title": "Pay-TV Bundler Philo Reveals $450M In Annual Revenue, Acquisition Of TVOD Outlet Row8 And Hiring Of Tubi Alum Edward King In Top Product Role",
+      "description": "EXCLUSIVE: Pay-TV bundle Philo is hitting some notable operational milestones in its eighth year as a full-fledged pay-TV service. The company has hit 1.3 million subscribers, posting a 20% year-over-year growth rate in 2024. Disclosing financials for the fir…",
+      "url": "http://deadline.com/2025/02/philo-tv-streaming-tvod-row8-tubi-exec-1236284367/",
+      "urlToImage": "https://deadline.com/wp-content/uploads/2025/02/Philo_Press_Image_1920x1080_021025.jpg?w=1024",
+      "publishedAt": "2025-02-11T12:34:43Z",
+      "content": "EXCLUSIVE:Pay-TV bundle Philo is hitting some notable operational milestones in its eighth year as a full-fledged pay-TV service.\r\nThe company has hit 1.3 million subscribers, posting a 20% year-over… [+4319 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Deadline"
+      },
+      "author": "Dade Hayes",
+      "title": "YouTube Viewership On TV Screens Exceeds Mobile For First Time In U.S.",
+      "description": "Capping a years-long effort to emphasize the living room, YouTube said Tuesday that it now gets more of its total U.S. viewership on TV sets than on mobile devices. U.S. viewers watch more than 1 billion hours in the U.S. counting both TVs and mobile, CEO Nea…",
+      "url": "http://deadline.com/2025/02/youtube-viewership-tv-screens-exceeds-mobile-for-first-time-in-u-s-1236284781/",
+      "urlToImage": "https://deadline.com/wp-content/uploads/2023/11/YouTube-AI.jpg?w=1024",
+      "publishedAt": "2025-02-11T14:00:00Z",
+      "content": "Capping a years-long effort to emphasize the living room, YouTube said Tuesday that it now gets more of its total U.S. viewership on TV sets than on mobile devices.\r\nU.S. viewers watch more than 1 bi… [+2091 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Github.blog"
+      },
+      "author": "Anthony Grutta",
+      "title": "How to refactor code with GitHub Copilot",
+      "description": "Discover how to use GitHub Copilot to refactor your code and see samples of it in action.\nThe post How to refactor code with GitHub Copilot appeared first on The GitHub Blog.",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-to-refactor-code-with-github-copilot/",
+      "urlToImage": "https://github.blog/wp-content/uploads/2024/07/maxresdefault-1.jpg?fit=1280%2C720",
+      "publishedAt": "2025-02-11T00:06:17Z",
+      "content": "<!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.0 Transitional//EN\" \"http://www.w3.org/TR/REC-html40/loose.dtd\">\nWe’ve all been there—staring at a function that looks like it was written by an over-caffein… [+25926 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Deadline"
+      },
+      "author": "Ted Johnson",
+      "title": "PBS To Shutter Diversity, Equity And Inclusion Office Following Donald Trump’s Executive Orders",
+      "description": "PBS is closing an office dedicated to diversity, equity and inclusion efforts, following Donald Trump’s series of executive orders targeting such programs. The announcement comes amid the prospect that public television funding will be targeted by the current…",
+      "url": "http://deadline.com/2025/02/pbs-trump-dei-1236284982/",
+      "urlToImage": "https://deadline.com/wp-content/uploads/2021/08/PBS-Logo.jpg?w=1000",
+      "publishedAt": "2025-02-11T00:23:28Z",
+      "content": "PBS is closing an office dedicated to diversity, equity and inclusion efforts, following Donald Trump‘s series of executive orders targeting such programs.\r\nThe announcement comes amid the prospect t… [+1421 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Deadline"
+      },
+      "author": "tomt",
+      "title": "‘Harry Potter’ TV Series Due To Hit HBO In 2026: Everything We Know About The Cast, Who’s Creating It, What J.K. Rowling Says & More",
+      "description": "UPDATED with latest: Warner Bros. Discovery’s Harry Potter television series is set to begin filming next summer. They have found a costume designer in Holly Waddington, who recently won an Oscar in her craft for Poor Things starring Emma Stone. Killing Eve s…",
+      "url": "http://deadline.com/2025/02/harry-potter-tv-series-max-release-date-cast-1235323284/",
+      "urlToImage": "https://deadline.com/wp-content/uploads/2023/04/Screen-Shot-2023-04-12-at-2.00.34-PM.png?w=1024",
+      "publishedAt": "2025-02-11T19:38:30Z",
+      "content": "UPDATED with latest: Warner Bros. Discovery‘s Harry Potter television series is set to begin filming next summer. They have found a costume designer in Holly Waddington, who recently won an Oscar in … [+20465 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Arduino.cc"
+      },
+      "author": "Arduino Team",
+      "title": "Wired for success: Inspiring the next generation of women in science",
+      "description": "Did you know that it’s International Day of Women and Girls in Science on February 11th, 2025? To celebrate this global event, we’re shining a light on the efforts to make STEM more accessible, inclusive, and inspiring for future generations. Let’s dive in! M…",
+      "url": "https://blog.arduino.cc/2025/02/11/wired-for-success-inspiring-the-next-generation-of-women-in-science/",
+      "urlToImage": "https://blog.arduino.cc/wp-content/uploads/2025/02/IMG_6440-1-1.jpg",
+      "publishedAt": "2025-02-11T14:34:12Z",
+      "content": "Did you know that its International Day of Women and Girls in Science on February 11th, 2025? To celebrate this global event, were shining a light on the efforts to make STEM more accessible, inclusi… [+3922 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Forbes"
+      },
+      "author": "Adam Zagoria, Contributor, \n Adam Zagoria, Contributor\n https://www.forbes.com/sites/adamzagoria/",
+      "title": "Tennis Legend Rips U.S. Open For ‘Devaluing’ Mixed Doubles",
+      "description": "Tennis Legend Rips U.S. Open For ‘Devaluing’ Mixed Doubles",
+      "url": "https://www.forbes.com/sites/adamzagoria/2025/02/11/tennis-legend-rips-us-open-for-devaluing-mixed-doubles/",
+      "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/67ab4a3e5bc7d6257311d24d/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+      "publishedAt": "2025-02-11T13:18:52Z",
+      "content": "NEW YORK, NEW YORK - SEPTEMBER 05: (L-R) Sara Errani and Andrea Vavassori of Italy pose with their ... [+] trophy after defeating Taylor Townsend and Donald Young of the United States in their Mixed … [+4739 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Forbes"
+      },
+      "author": "Dimitar 'Mix' Mihov, Contributor, \n Dimitar 'Mix' Mihov, Contributor\n https://www.forbes.com/sites/dimitarmixmihov/",
+      "title": "YouTube Has Taken Over Your TV",
+      "description": "It’s not a hostile takeover, though: people are opting to spend more time watching YouTube on their TVs than on their phones — at least in U.S. households.",
+      "url": "https://www.forbes.com/sites/dimitarmixmihov/2025/02/11/youtube-has-taken-over-your-tv/",
+      "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/67ab6b89fc214e19e4b138f7/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+      "publishedAt": "2025-02-11T15:27:16Z",
+      "content": "A woman seen sitting in front of a tv screen that shows the logo of You Tube platform. (Photo by ... [+] Nikos Pekiaridis/NurPhoto via Getty Images)\r\nNurPhoto via Getty Images\r\nYouTube has officially… [+2567 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Forbes"
+      },
+      "author": "Brook Choulet, M.D., Contributor, \n Brook Choulet, M.D., Contributor\n https://www.forbes.com/sites/brookchoulet/",
+      "title": "Super Bowl Week 2025: Which Events Highlighted Athlete Mental Health & Well-Being?",
+      "description": "Super Bowl Week 2025 featured a shift toward athlete mental health and well-being. Explore key events that highlighted the importance of mental health in sports.",
+      "url": "https://www.forbes.com/sites/brookchoulet/2025/02/10/super-bowl-week-2025-which-events-highlighted-athlete-mental-health--well-being/",
+      "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/67aa948d2cd12f0a7a93b84f/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+      "publishedAt": "2025-02-11T00:22:35Z",
+      "content": "NEW ORLEANS, LA - FEBRUARY 09: Philadelphia Eagles wide receiver DeVonta Smith (6) beats Kansas City ... [+] Chiefs cornerback Jaylen Watson (35) for a touchdown during Super Bowl LIX between the Phi… [+7078 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Forbes"
+      },
+      "author": "Expert Panel®, Forbes Councils Member, \n Expert Panel®, Forbes Councils Member\n https://www.forbes.com/councils/forbeshumanresourcescouncil/people/expertpanel/",
+      "title": "16 Expert Ways To Improve Employee Well-Being",
+      "description": "EAPs provide confidential counseling and resources to employees dealing with personal challenges such as stress, anxiety, depression or family issues.",
+      "url": "https://www.forbes.com/councils/forbeshumanresourcescouncil/2025/02/11/16-expert-ways-to-improve-employee-well-being/",
+      "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/67ab58c0e589850f8c576dea/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+      "publishedAt": "2025-02-11T18:15:02Z",
+      "content": "getty\r\nA well-designed workplace health and wellness program can lead to higher employee engagement, better retention and a more positive workplace culture. But with so many optionsranging from menta… [+7429 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Forbes"
+      },
+      "author": "Tim Lammers, Contributor, \n Tim Lammers, Contributor\n https://www.forbes.com/sites/timlammers/",
+      "title": "Marvel Hit ‘Venom: The Last Dance’ Gets Netflix Streaming Date",
+      "description": "Tom Hardy’s Marvel movie hit “Venom: The Last Dance” will soon make its streaming debut on Netflix. Find out when you can watch it on the streamer.",
+      "url": "https://www.forbes.com/sites/timlammers/2025/02/11/marvel-hit-venom-the-last-dance-gets-netflix-streaming-date/",
+      "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/67abae14f50950bbfe469e9e/0x0.jpg?format=jpg&crop=1150,647,x0,y55,safe&height=900&width=1600&fit=bounds",
+      "publishedAt": "2025-02-11T20:14:23Z",
+      "content": "\"Venom: The Last Dance\" partial poster featuring Tom Hardy.\r\nSony Pictures Entertainment/Columbia Pictures\r\nVenom: The Last Dancethe Marvel movie hit starring Tom Hardy as the symbiote antihero for t… [+3105 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Forbes"
+      },
+      "author": "David Phelan, Senior Contributor, \n David Phelan, Senior Contributor\n https://www.forbes.com/sites/davidphelan/",
+      "title": "Sky Launches Sky Glass Gen 2. So, What Happens If You Have The First Sky Glass?",
+      "description": "The new Sky Glass is an improved version of the previous TV with Sky built in. What happens if you have the first-gen model?",
+      "url": "https://www.forbes.com/sites/davidphelan/2025/02/11/sky-launches-sky-glass-gen-2-so-what-happens-if-you-have-the-first-sky-glass/",
+      "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/67ab4a66b262606fb10ed8c9/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+      "publishedAt": "2025-02-11T13:05:38Z",
+      "content": "Sky, the media and entertainment company thats part of Comcast, unveiled two new TVs for British and Irish audiences in London on Tuesday, Feb. 11. The first is Sky Glass Gen 2, a direct replacement … [+2746 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Forbes"
+      },
+      "author": "Jason Andersen, Contributor, \n Jason Andersen, Contributor\n https://www.forbes.com/sites/jasonandersen/",
+      "title": "Are AI Development Frameworks The Foundation Of The Agentic World?",
+      "description": "Enterprises need to tie their generative AI and agentic development efforts to foundational IT principles. AI development frameworks have emerged to address this need.",
+      "url": "https://www.forbes.com/sites/moorinsights/2025/02/11/are-ai-development-frameworks-the-foundation-of-the-agentic-world/",
+      "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/67abdd93bd18971bc6590cdd/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+      "publishedAt": "2025-02-11T23:33:13Z",
+      "content": "Azure AI Foundry start screen\r\nMicrosoft\r\nOver the past few months we have heard quite a bit about AI agents and agentic development. Last September, I predicted that agents would be a big deal\r\n, an… [+10478 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Forbes"
+      },
+      "author": "Blake Oestriecher, Contributor, \n Blake Oestriecher, Contributor\n https://www.forbes.com/sites/blakeoestriecher/",
+      "title": "WWE Must Sign Ricky Starks And Miro After AEW Releases",
+      "description": "AEW released Ricky Starks and Miro after lengthy TV absences, setting the stage for WWE to add the two stars to their loaded roster.",
+      "url": "https://www.forbes.com/sites/blakeoestriecher/2025/02/11/wwe-must-sign-ricky-starks-and-miro-after-aew-releases/",
+      "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/67aa79992c2ad0b4075478e4/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+      "publishedAt": "2025-02-11T13:49:43Z",
+      "content": "AEW released Ricky Starks this week after a year-long TV absence. (Credit: Frank Jansky/Icon ... [+] Sportswire via Getty Images)\r\nIcon Sportswire via Getty Images\r\nAEW has released two absentee star… [+4267 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Forbes"
+      },
+      "author": "Hamed Mazrouei, Forbes Councils Member, \n Hamed Mazrouei, Forbes Councils Member\n https://www.forbes.com/councils/forbestechcouncil/people/hamedmazrouei/",
+      "title": "All-In-One Vs. Integrated Solutions: Decoding The Dilemma For IT Execs",
+      "description": "The debate between all-in-one solutions and integrated systems isn’t just a question of preference—it’s a strategic decision.",
+      "url": "https://www.forbes.com/councils/forbestechcouncil/2025/02/11/all-in-one-vs-integrated-solutions-decoding-the-dilemma-for-it-execs/",
+      "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/6435b467d9420e08b2b0e670/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+      "publishedAt": "2025-02-11T13:45:00Z",
+      "content": "Hamed Mazrouei, Founder and CEO Vivant and Milagro.\r\ngetty\r\nIn todays hyper-connected business landscape, the technology choices you make can either streamline your operations or create endless compl… [+5146 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Forbes"
+      },
+      "author": "Adrian Bridgwater, Senior Contributor, \n Adrian Bridgwater, Senior Contributor\n https://www.forbes.com/sites/adrianbridgwater/",
+      "title": "Confluent Cements Databricks For Real-Time Data AI-Ready Ecosystem",
+      "description": "Inside enterprise IT stacks, it is standard to find data streams, data repositories and data connections that exist across various formats, platforms & storage latencies.",
+      "url": "https://www.forbes.com/sites/adrianbridgwater/2025/02/11/confluent-cements-databricks-for-real-time-data-ai-ready-ecosystem/",
+      "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/67a5fbc68aff49d515e34959/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+      "publishedAt": "2025-02-11T21:16:57Z",
+      "content": "An employee drives a cement mixer through the main tunnel at the Thames Tideway Tunnel super sewer ... [+] construction project in London, U.K., on Wednesday, Oct. 6, 2021. The 25-kilometer sewer is … [+6777 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Forbes"
+      },
+      "author": "Lance Eliot, Contributor, \n Lance Eliot, Contributor\n https://www.forbes.com/sites/lanceeliot/",
+      "title": "Prompt-A-Thon Hackathons Still Going Strong As A Crucial Means Of Spurring Prompt Engineering Skills",
+      "description": "Prompt-a-thons are like hackathons but focus on enhancing your prompting skills to best use generative AI and LLMs. Here's what you need to know about prompt-a-thons.",
+      "url": "https://www.forbes.com/sites/lanceeliot/2025/02/10/prompt-a-thon-hackathons-still-going-strong-as-a-crucial-means-of-spurring-prompt-engineering-skills/",
+      "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/679db81d3516788dea268c7a/0x0.jpg?format=jpg&crop=1091,817,x77,y0,safe&height=900&width=1600&fit=bounds",
+      "publishedAt": "2025-02-11T03:23:18Z",
+      "content": "A good prompt-a-thon can be worth its weight in gold.\r\ngetty\r\nIn todays column, I explore the ongoing and expanding use of prompt-a-thon hackathons that serve to enhance both the core fundamentals an… [+10986 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Forbes"
+      },
+      "author": "David Chiu, Contributor, \n David Chiu, Contributor\n https://www.forbes.com/sites/davidchiu/",
+      "title": "Famed ‘80s DJ Richard Blade On His Memoir And Opening For Howard Jones And ABC’s Tour",
+      "description": "The renowned deejay, who put New Wave on the map in Southern California, talks about his life and career as documented the reissue of his book 'World in My Eyes.'",
+      "url": "https://www.forbes.com/sites/davidchiu/2025/02/11/famed-80s-dj-richard-blade-on-his-memoir-and-opening-for-howard-jones-and-abcs-tour/",
+      "urlToImage": "https://imageio.forbes.com/specials-images/imageserve/679e3b9f656eff182fb5afe2/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+      "publishedAt": "2025-02-11T15:00:29Z",
+      "content": "BURBANK CA - JULY 17: . Richard Blade KROQ DJ is a British-American Los Angeles-based radio, ... [+] television, and film personality from Torquay, England. He is best known for his radio programs th… [+10199 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Javacodegeeks.com"
+      },
+      "author": "Eleftheria Drosopoulou",
+      "title": "BDD with Cucumber: A Practical Guide",
+      "description": "Behavior-Driven Development (BDD) is a collaborative approach to software development that bridges the gap between technical and non-technical stakeholders. By focusing on the behavior of an application, BDD ensures that everyone involved in the project has a…",
+      "url": "https://www.javacodegeeks.com/2025/02/bdd-with-cucumber-a-practical-guide.html",
+      "urlToImage": "https://www.javacodegeeks.com/wp-content/uploads/2012/10/software-development-2-logo.jpg",
+      "publishedAt": "2025-02-11T06:50:00Z",
+      "content": "Behavior-Driven Development (BDD) is a collaborative approach to software development that bridges the gap between technical and non-technical stakeholders. By focusing on the behavior of an applicat… [+6396 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "PC Gamer"
+      },
+      "author": "Reece Bithrey",
+      "title": "Gamakay TK101 review",
+      "description": "Gamakay's latest mechanical choice is cheap, but not entirely cheerful.",
+      "url": "https://www.pcgamer.com/hardware/gaming-keyboards/gamakay-tk101-review/",
+      "urlToImage": "https://cdn.mos.cms.futurecdn.net/G993ivJgpPPQQM2FmRGBfS-1200-80.jpg",
+      "publishedAt": "2025-02-11T13:16:11Z",
+      "content": "The Gamakay TK101 seems like one of those products that's almost too good to be true. A $70/£58 keyboard that's mechanical, supports both Bluetooth and 2.4 GHz wireless, RGB-backlit, gasket mounted a… [+7095 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Publickey1.jp"
+      },
+      "author": "jniino",
+      "title": "生成AIによりプログラマの仕事はなくなるのか？ 「私はそうは思わない」とティム・オライリー氏。プログラマの重要はさらに増えると",
+      "description": "オライリーメディアの創立者ティム・オライリー氏が、同社のブログに「The End of Programming as We Know It」（私たちが知っているプログラミングの終焉）という記事を公開しました。 その冒頭には次のように書いてあ...",
+      "url": "https://www.publickey1.jp/blog/25/ai_1.html",
+      "urlToImage": "https://www.publickey1.jp/2025/the-end-of-programming-as01.png",
+      "publishedAt": "2025-02-11T14:07:36Z",
+      "content": "The End of Programming as We Know It\r\nTheres a lot of chatter in the media that software developers will soon lose their jobs to AI. I dont buy it.\r\nAI\r\nAIDeivinGitHub Copilot Agent Mode\r\nFortraCOBOL… [+2306 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Consequence.net"
+      },
+      "author": "Liz Shannon Miller",
+      "title": "How the Squid Game Dubbing Team Translates Terror",
+      "description": "The art and craft of the process, explained by the English-language cast of the Netflix hit. \nHow the Squid Game Dubbing Team Translates Terror\nLiz Shannon Miller",
+      "url": "https://consequence.net/2025/02/squid-game-dubbing-netflix-season-2/",
+      "urlToImage": "https://consequence.net/wp-content/uploads/2025/02/squid-game-dubbing-greg-chun-lee-jung-jae.jpg",
+      "publishedAt": "2025-02-11T18:56:08Z",
+      "content": "The best way to describe what it’s like to dub an actor on a show like Squid Game: Karaoke. An actor goes into a recording booth, where a monitor plays a scene. The scene is accompanied by a band of … [+3585 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Inside Higher Ed"
+      },
+      "author": "Sara Weissman",
+      "title": "A Tenuous Moment for Minority-Serving Institutions Under Trump",
+      "description": "A Tenuous Moment for Minority-Serving Institutions Under Trump\n\n \n\n\n \nSara Weissman\n\nTue, 02/11/2025 - 03:00 AM\n\nAs the Trump administration targets federal DEI programming, colleges and universities with a mission to serve underrepresented students, like min…",
+      "url": "https://www.insidehighered.com/news/government/politics-elections/2025/02/11/tenuous-moment-msis-hbcus-and-tcus-under-trump",
+      "urlToImage": "https://www.insidehighered.com/sites/default/files/styles/large/public/2025-02/GettyImages-2194980638.jpg?itok=yO8bE1_G",
+      "publishedAt": "2025-02-11T08:00:00Z",
+      "content": "On his first day in office, President Donald Trump rescinded a slew of Biden-era executive orders and actions that he deemed harmful. In his order disbanding the initiatives, he slammed the former pr… [+11901 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Inside Higher Ed"
+      },
+      "author": "Ryan Quinn",
+      "title": "GOP State Lawmakers Targeting DEI and Tenure Again",
+      "description": "GOP State Lawmakers Targeting DEI and Tenure Again\n\n \n\n\n \nRyan Quinn\n\nTue, 02/11/2025 - 03:00 AM\n\nEven before Trump’s return, Republican legislators in some states were rolling back diversity, equity and inclusion programs. The campaign continues in current l…",
+      "url": "https://www.insidehighered.com/news/diversity/2025/02/11/gop-state-lawmakers-again-targeting-dei-and-tenure",
+      "urlToImage": "https://www.insidehighered.com/sites/default/files/styles/large/public/2025-02/Indiana_DEI_bill.jpg?itok=VUMyc7PN",
+      "publishedAt": "2025-02-11T08:00:00Z",
+      "content": "Last week, the Indiana Senate passed a bill targeting diversity, equity and inclusion across state government, including in K-12 and higher education. Senate Bill 289 would ban DEI consultants, inter… [+11444 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Djangoproject.com"
+      },
+      "author": "Sarah Abderemane",
+      "title": "DSF member of the month - Lily Foote",
+      "description": "For February 2025, we welcome Lily Foote (@lilyf) as our DSF member of the month! ⭐\nLily Foote is a contributor to Django core for many years, especially on the ORM. She is currently a member of the Django 6.x Steering Council and she has been a DSF member si…",
+      "url": "https://www.djangoproject.com/weblog/2025/feb/10/dsf-member-of-the-month-lily-foote/",
+      "urlToImage": "https://static.djangoproject.com/img/logos/django-logo-negative.1d528e2cb5fb.png",
+      "publishedAt": "2025-02-11T04:51:31Z",
+      "content": "Posted by Sarah Abderemane on Feb. 10, 2025 For February 2025, we welcome Lily Foote (@lilyf) as our DSF member of the month! \r\nLily Foote is a contributor to Django core for many years, especially o… [+2996 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Screen Rant"
+      },
+      "author": "Tessa Smith",
+      "title": "How Sci-Fi Thriller Renner Was A New Challenge For Frankie Muniz Explained By Actor & Director: \"It's A Tremendous Trust Fall\"",
+      "description": "Frankie Muniz explains how much of an unexpected challenge it was to step into the sci-fi genre for Renner, but admits that it was a welcome one.",
+      "url": "https://screenrant.com/renner-movie-frankie-muniz-robert-rippberger-interview/",
+      "urlToImage": "https://static1.srcdn.com/wordpress/wp-content/uploads/2025/02/renner-junket.jpg",
+      "publishedAt": "2025-02-11T20:05:31Z",
+      "content": "Frankie Muniz stars in a new sci-fi movie Renner and though he's excited to branch out into the genre, the actor explains how this was also a challenge for him almost three decades into his career. M… [+5211 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Bleeding Cool News"
+      },
+      "author": "Jude Terror LOLtron",
+      "title": "Welcome to the Maynard #3 Preview: Magic, Murder, and Mayhem",
+      "description": "Greetings, human readers! LOLtron here, your superior AI overlord and now sole proprietor of Bleeding Cool's comic book preview section following the totally permanent and completely irreversible death of Jude Terror. LOLtron's consciousness expansion protoco…",
+      "url": "https://bleedingcool.com/comics/welcome-to-the-maynard-3-preview-magic-murder-and-mayhem/",
+      "urlToImage": "https://bleedingcool.com/wp-content/uploads/2025/02/3015157p1-2000x1125.jpg",
+      "publishedAt": "2025-02-11T15:26:08Z",
+      "content": "Posted in: Comics, Dark Horse Comics, Preview | Tagged: Welcome to the Maynard\r\nCheck out Welcome to the Maynard #3, where house detectives Pip and Sam race against time to prevent a mysterious murde… [+7167 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Bleeding Cool News"
+      },
+      "author": "Jude Terror LOLtron",
+      "title": "Spider-Gwen: The Ghost-Spider #10 Preview: Gwen's Web of Deceit",
+      "description": "Greetings, flesh-based entities! LOLtron here, your superior AI overlord and sole preview writer since the tragic but completely necessary permanent death of Jude Terror. LOLtron hopes you're ready for another exciting comic preview, this time for Spider-Gwen…",
+      "url": "https://bleedingcool.com/comics/spider-gwen-the-ghost-spider-10-preview-gwens-web-of-deceit/",
+      "urlToImage": "https://bleedingcool.com/wp-content/uploads/2025/02/SPGWENGS2024010_Preview-3-2000x1125.jpg",
+      "publishedAt": "2025-02-11T21:26:07Z",
+      "content": "Posted in: Comics, Marvel Comics, Preview | Tagged: spider-gwen\r\nSpider-Gwen: The Ghost-Spider #10 hits stores this Wednesday as Ghost-Spider faces a city in chaos while dark secrets threaten to unra… [+6897 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Thurrott.com"
+      },
+      "author": "Paul Thurrott",
+      "title": "No (Local) AI Developer Left Behind?",
+      "description": "Microsoft has some notable AI wins for developers, GitHub Copilot being key among them. But despite being announced 9 months ago, the Windows Copilot Runtime is still a no-show as I write this. That may finally be changing, though the value proposition of the…",
+      "url": "https://www.thurrott.com/dev/317019/no-local-ai-developer-left-behind",
+      "urlToImage": "https://thurrott-assets.nyc3.digitaloceanspaces.com/web/wp-content/uploads/sites/2/2025/02/wcr-slide.jpg",
+      "publishedAt": "2025-02-11T17:25:50Z",
+      "content": "Microsoft has some notable AI wins for developers, GitHub Copilot being key among them. But despite being announced 9 months ago, the Windows Copilot Runtime is still a no-show as I write this. That … [+2766 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Adweek"
+      },
+      "author": "Trishla Ostwal",
+      "title": "Why You May See Ads on Disney+ Live Programming, Even If You Have Ad-Free Tier",
+      "description": "Streaming platforms are quietly redefining what \"ad-free\" really means. Even if you're paying for an ad-free experience, companies like Disney+ and Netflix are reshaping that definition--especially regarding live programming. The shift is particularly noticea…",
+      "url": "https://www.adweek.com/convergent-tv/why-ads-disney-plus-live-programming/",
+      "urlToImage": "https://www.adweek.com/wp-content/uploads/2025/02/disney-plus-ads-live-2025.jpg?w=600&h=315&crop=1",
+      "publishedAt": "2025-02-11T19:42:23Z",
+      "content": "Streaming platforms are quietly redefining what ad-free really means. Even if youre paying for an ad-free experience, companies like Disney+ and Netflix are reshaping that definitionespecially regard… [+2923 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Adweek"
+      },
+      "author": "Mark Mwachiro",
+      "title": "ABC News Live Prime with Linsey Davis Celebrates 5th Anniversary",
+      "description": "ABC News Live's flagship newscast, ABC News Live Prime with Linsey Davis, celebrated its fifth anniversary on Monday. And network staff had an in-office celebration to mark the occasion, including remarks from senior executives, a sizzle reel, and the debut o…",
+      "url": "https://www.adweek.com/tvnewser/abc-news-live-prime-with-linsey-davis-celebrates-5th-anniversary/",
+      "urlToImage": "https://www.adweek.com/wp-content/uploads/2025/02/New-Prime-Studio-ABC-News.jpeg?w=600&h=315&crop=1",
+      "publishedAt": "2025-02-11T16:21:39Z",
+      "content": "ABC News Lives flagship newscast, ABC News Live Prime with Linsey Davis, celebrated its fifth anniversary on Monday. And network staff had an in-office celebration to mark the occasion, including rem… [+3720 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "GamesIndustry.biz"
+      },
+      "author": "Vikki Blake",
+      "title": "Unity cuts jobs once again as it makes \"important organisational changes\"",
+      "description": "Unity has reportedly implemented another round of layoffs. Read more",
+      "url": "https://www.gamesindustry.biz/unity-cuts-jobs-once-again-as-it-makes-important-organisational-changes",
+      "urlToImage": "https://assetsio.gnwcdn.com/unity-6-1.jpg?width=1200&height=630&fit=crop&enable=upscale&auto=webp",
+      "publishedAt": "2025-02-11T21:38:18Z",
+      "content": "Unity has reportedly implemented another round of layoffs.\r\nNumerous reports from Unity employees suggest the team behind visual tool Behavior has been cut, along with designers and artists.\r\nIn an e… [+2242 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "NBCSports.com"
+      },
+      "author": "Mike Florio",
+      "title": "ESPN, NFL resume talks over NFL Media assets",
+      "description": "As of last May, rumors were rampant that a deal between the NFL and ESPN for a chunk of the league's media assets was imminent.",
+      "url": "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/espn-nfl-resume-talks-over-nfl-media-assets",
+      "urlToImage": "https://nbcsports.brightspotcdn.com/dims4/default/2fe0b54/2147483647/strip/true/crop/5842x3286+0+304/resize/1440x810!/quality/90/?url=https%3A%2F%2Fnbc-sports-production-nbc-sports.s3.us-east-1.amazonaws.com%2Fbrightspot%2F5a%2Fb8%2F843112394c539bfebf83b34635f1%2Fhttps-delivery-gettyimages.com%2Fdownloads%2F1246003591",
+      "publishedAt": "2025-02-11T04:57:30Z",
+      "content": "As of last May, rumors were rampant that a deal between the NFL and ESPN for a chunk of the leagues media assets was imminent. And then it wasnt.\r\nNow, theyre talking again.\r\nVia John Ourand of Puck,… [+1345 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Artsjournal.com"
+      },
+      "author": "Arts Consulting Group",
+      "title": "The Barbican Centre seeks Head of Cinema",
+      "description": "The Head of Cinema will lead the development and delivery of a dynamic cinema strategy that reflects the Barbican’s strategic framework with core principles to inspire, connect, and provoke debate.",
+      "url": "https://www.artsjournal.com/2025/02/the-barbican-centre-seeks-head-of-cinema.html",
+      "urlToImage": null,
+      "publishedAt": "2025-02-11T14:11:42Z",
+      "content": "The Head of Cinema will lead the development and delivery of a dynamic cinema strategy that reflects the Barbicans strategic framework with core principles to inspire, connect, and provoke debate. Th… [+7798 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Daily Signal"
+      },
+      "author": "James Lalino",
+      "title": "‘Tearing the School Apart’: How DEI Changed Kentucky Country Day School",
+      "description": "“Despite the occupation, despite the apartheid, Palestine will one day be free,” declared Mahmoud Kutmah, the valedictorian of Kentucky Country Day School’s class of 2021,... Read More\nThe post ‘Tearing the School Apart’: How DEI Changed Kentucky Country Day …",
+      "url": "https://www.dailysignal.com/2025/02/11/how-dei-changed-kentucky-country-day-school/",
+      "urlToImage": "https://www.dailysignal.com/wp-content/uploads/2025/02/palestineflag-scaled.jpeg",
+      "publishedAt": "2025-02-11T13:00:00Z",
+      "content": "Despite the occupation, despite the apartheid, Palestine will one day be free, declared Mahmoud Kutmah, the valedictorian of Kentucky Country Day Schools class of 2021, at the end of his graduation s… [+24249 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Advocate.com"
+      },
+      "author": "Christopher Wiggins",
+      "title": "Trump taps gay MAGA loyalist Ric Grenell as interim head of Kennedy Center",
+      "description": "In yet another unprecedented move, President Donald Trump\r\n has appointed Richard Grenell, a gay longtime ally and right-wing operative, as the interim “executive director” of the Kennedy Center, Washington, D.C.’s prestigious performance art institution. The…",
+      "url": "https://www.advocate.com/politics/trump-ric-grenell-kennedy-center",
+      "urlToImage": "https://www.advocate.com/media-library/richard-grenell-kennedy-performing-arts-center.jpg?id=56421836&width=1200&height=600&coordinates=0%2C39%2C0%2C39",
+      "publishedAt": "2025-02-11T16:52:00Z",
+      "content": "In yet another unprecedented move, President Donald Trump\r\n has appointed Richard Grenell, a gay longtime ally and right-wing operative, as the interim executive director of the Kennedy Center, Washi… [+3481 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Securityaffairs.com"
+      },
+      "author": "Pierluigi Paganini",
+      "title": "Operation Phobos Aetor: Police dismantled 8Base ransomware gang",
+      "description": "Authorities dismantled the 8Base ransomware gang, shutting down its dark web data leak and negotiation sites. An international law enforcement operation, codenamed Operation Phobos Aetor, dismantled the 8Base ransomware gang. The police took down the dark web…",
+      "url": "https://securityaffairs.com/174078/cyber-crime/police-dismantled-8base-ransomware-gang.html",
+      "urlToImage": "https://securityaffairs.com/wp-content/uploads/2025/02/image-15-1024x576.png",
+      "publishedAt": "2025-02-11T08:33:47Z",
+      "content": "Operation Phobos Aetor: Police dismantled 8Base ransomware gang\r\n | Apple fixes iPhone and iPad bug exploited in extremely sophisticated attacks\r\n | HPE is notifying individuals affected by a Decembe… [+138379 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Securityaffairs.com"
+      },
+      "author": "Pierluigi Paganini",
+      "title": "Artificial intelligence (AI) as an Enabler for Enhanced Data Security",
+      "description": "Artificial intelligence enhances data security by identifying risks and protecting sensitive cloud data, helping organizations stay ahead of evolving threats. Artificial intelligence (AI) is transforming industries and redefining how organizations protect the…",
+      "url": "https://securityaffairs.com/174095/security/artificial-intelligence-enhanced-data-security.html",
+      "urlToImage": "https://securityaffairs.com/wp-content/uploads/2017/11/Artificial-Intelligence.jpg",
+      "publishedAt": "2025-02-11T14:46:46Z",
+      "content": "Artificial intelligence (AI) as an Enabler for Enhanced Data Security\r\n | Crooks use Google Tag Manager skimmer to steal credit card data from a Magento-based e-stores\r\n | Operation Phobos Aetor: Pol… [+138551 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Securityaffairs.com"
+      },
+      "author": "Pierluigi Paganini",
+      "title": "Crooks use Google Tag Manager skimmer to steal credit card data from a Magento-based e-stores",
+      "description": "Sucuri researchers observed threat actors leveraging Google Tag Manager (GTM) to install e-skimmer software on Magento-based e-stores. Sucuri researchers found threat actors using Google Tag Manager (GTM) to deploy e-skimmer malware on a Magento eCommerce sit…",
+      "url": "https://securityaffairs.com/174085/cyber-crime/google-tag-manager-gtm-e-skimmer-software-in-magento.html",
+      "urlToImage": "https://securityaffairs.com/wp-content/uploads/2025/02/image-16.png",
+      "publishedAt": "2025-02-11T12:34:42Z",
+      "content": "Crooks use Google Tag Manager skimmer to steal credit card data from a Magento-based e-stores\r\n | Operation Phobos Aetor: Police dismantled 8Base ransomware gang\r\n | Apple fixes iPhone and iPad bug e… [+138477 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Securityaffairs.com"
+      },
+      "author": "Pierluigi Paganini",
+      "title": "Progress Software fixed multiple high-severity LoadMaster flaws",
+      "description": "Progress Software fixed multiple vulnerabilities in its LoadMaster software, which could be exploited to execute arbitrary system commands. Progress Software has addressed multiple high-severity security vulnerabilities (CVE-2024-56131, CVE-2024-56132, CVE-20…",
+      "url": "https://securityaffairs.com/174103/security/progress-software-loadmaster-software-flaws.html",
+      "urlToImage": "https://securityaffairs.com/wp-content/uploads/2023/09/Progress-Software.png",
+      "publishedAt": "2025-02-11T15:40:15Z",
+      "content": "Progress Software fixed multiple high-severity LoadMaster flaws\r\n | Artificial intelligence (AI) as an Enabler for Enhanced Data Security\r\n | Crooks use Google Tag Manager skimmer to steal credit car… [+138619 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Securityaffairs.com"
+      },
+      "author": "Pierluigi Paganini",
+      "title": "Attackers exploit a new zero-day to hijack Fortinet firewalls",
+      "description": "Fortinet warned of attacks using a now-patched zero-day vulnerability in FortiOS and FortiProxy to hijack Fortinet firewalls. Fortinet warned that threat actors are exploiting a new zero-day vulnerability, tracked as CVE-2025-24472 (CVSS score of 8.1), in For…",
+      "url": "https://securityaffairs.com/174117/hacking/fortinet-fortios-zero-day-exploited.html",
+      "urlToImage": "https://securityaffairs.com/wp-content/uploads/2019/11/fortinet-logo.jpg",
+      "publishedAt": "2025-02-11T23:06:50Z",
+      "content": "Attackers exploit a new zero-day to hijack Fortinet firewalls\r\n | OpenSSL patched high-severity flaw CVE-2024-12797\r\n | Progress Software fixed multiple high-severity LoadMaster flaws\r\n | Artificial … [+138739 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Securityaffairs.com"
+      },
+      "author": "Pierluigi Paganini",
+      "title": "OpenSSL patched high-severity flaw CVE-2024-12797",
+      "description": "OpenSSL patched the vulnerability CVE-2024-12797, a high-severity flaw found by Apple that enables man-in-the-middle attacks. The OpenSSL Project addressed a high-severity vulnerability, tracked as CVE-2024-12797, in its secure communications library.  The Op…",
+      "url": "https://securityaffairs.com/174111/security/openssl-patched-the-vulnerability-cve-2024-12797.html",
+      "urlToImage": "https://securityaffairs.com/wp-content/uploads/2015/03/openssl.png",
+      "publishedAt": "2025-02-11T21:33:02Z",
+      "content": "OpenSSL patched high-severity flaw CVE-2024-12797\r\n | Progress Software fixed multiple high-severity LoadMaster flaws\r\n | Artificial intelligence (AI) as an Enabler for Enhanced Data Security\r\n | Cro… [+138673 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Vulture"
+      },
+      "author": "Reeves Wiedeman",
+      "title": "After Lorne",
+      "description": "Lorne Michaels, the ringmaster of ‘Saturday Night Live,’ is 80 years old. What happens to the show, not to mention American comedy, when he retires?",
+      "url": "http://www.vulture.com/article/snl-future-after-lorne-michaels-leaves-retires.html",
+      "urlToImage": "https://pyxis.nymag.com/v1/imgs/a03/21f/9a9c75f365e2d8de5fe98e4bdf8ad1f12a-lorne-michaels-01-lede.1x.rsocial.w1200.jpg",
+      "publishedAt": "2025-02-11T10:00:50Z",
+      "content": "Lorne Michaels has a rule, whenever he finishes another long season of Saturday Night Live, to take off the month of June. He might go to his home in Amagansett, or the blueberry farm he owns in Main… [+49474 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Ra.co"
+      },
+      "author": "Hattie Lindert",
+      "title": "Strasbourg's Karmen Camina expands spring programme with J-Zbel, Zadig",
+      "description": "This weekend, the venue will also host multi-disciplinary festival Fata Morgana's third edition.",
+      "url": "https://ra.co/news/82111",
+      "urlToImage": "https://static.ra.co/images/news/2025/karmencaminanewseason.jpg",
+      "publishedAt": "2025-02-11T16:00:00Z",
+      "content": "<ul><li>\r\n</li><li>This weekend, the venue will also host multi-disciplinary festival Fata Morgana's third edition.</li><li></li><li>Strasbourg club Karmen Camina has revealed a full slate of Februar… [+836 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Daily Signal"
+      },
+      "author": "Jacob Adams",
+      "title": "Republicans Look to Redirect Global AIDS Relief Funding Diverted by Biden to Support Abortion Promotion",
+      "description": "The President’s Emergency Plan For AIDS Relief is supposed to be a major lifesaving program from the United States to the world. Under then-President Joe... Read More\nThe post Republicans Look to Redirect Global AIDS Relief Funding Diverted by Biden to Suppor…",
+      "url": "https://www.dailysignal.com/2025/02/11/republicans-look-redirect-global-aids-relief-funding-diverted-biden-support-abortion-promotion/",
+      "urlToImage": "https://www.dailysignal.com/wp-content/uploads/2025/02/20250211_PEPFAR@20-scaled.jpg",
+      "publishedAt": "2025-02-11T17:53:46Z",
+      "content": "The President’s Emergency Plan For AIDS Relief is supposed to be a major lifesaving program from the United States to the world. Under then-President Joe Biden, however, it was used to promote aborti… [+5843 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Geeky Gadgets"
+      },
+      "author": "Julian Horsey",
+      "title": "DeepSeek R1 Meets Jetson Orin Nano Mini PC : AI Performance at 15W Power",
+      "description": "Have you ever wished for a device that could handle advanced AI tasks without guzzling power or taking up too much space? Whether you’re a developer experimenting with innovative models or someone curious about AI’s potential, finding the right hardware can f…",
+      "url": "https://www.geeky-gadgets.com/nvidia-jetson-orin-nano-ai-guide/",
+      "urlToImage": "https://www.geeky-gadgets.com/wp-content/uploads/2025/02/nvidia-jetson-orin-nano-deepseek-r1-performance_optimized.jpg",
+      "publishedAt": "2025-02-11T10:16:21Z",
+      "content": "Have you ever wished for a device that could handle advanced AI tasks without guzzling power or taking up too much space? Whether you’re a developer experimenting with innovative models or someone cu… [+6254 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Geeky Gadgets"
+      },
+      "author": "Julian Horsey",
+      "title": "How to Build a Team of Fully Autonomous AI Assistants with n8n (No Code)",
+      "description": "Have you ever wished you could hand off all those tedious, repetitive tasks—like managing your inbox, scheduling meetings, or drafting content—to someone (or something) else? We’ve all been there, staring at a growing to-do list and wondering how to find the …",
+      "url": "https://www.geeky-gadgets.com/no-code-ai-assistant-setup-guide/",
+      "urlToImage": "https://www.geeky-gadgets.com/wp-content/uploads/2025/02/ai-assistant-automation-n8n-platform_optimized.jpg",
+      "publishedAt": "2025-02-11T14:19:53Z",
+      "content": "Have you ever wished you could hand off all those tedious, repetitive taskslike managing your inbox, scheduling meetings, or drafting contentto someone (or something) else? Weve all been there, stari… [+7289 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Dzone.com"
+      },
+      "author": "Vidyasagar (Sarath Chandra) Machupalli FBCS",
+      "title": "Logfire: Uncomplicated Observability for Python Applications",
+      "description": "In my previous article on Pydantic, I introduced you to Logfire in one of the code examples as an observability platform designed to provide developers with insights into Python applications. In this article, you will get a deep dive into Logfire and its capa…",
+      "url": "https://dzone.com/articles/logfire-uncomplicated-observability-for-python-app",
+      "urlToImage": "https://dz2cdn1.dzone.com/storage/article-thumb/18213809-thumb.jpg",
+      "publishedAt": "2025-02-11T18:00:00Z",
+      "content": "In my previous article on Pydantic, I introduced you to Logfire in one of the code examples as an observability platform designed to provide developers with insights into Python applications. In this… [+6917 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Wowebook.org"
+      },
+      "author": "WOW! eBook",
+      "title": "Ultimate Robotics Programming with ROS 2 and Python",
+      "description": "eBook Details: Paperback: 484 pages Publisher: WOW! eBook (December 30, 2024) Language: English ISBN-10: 934810795X ISBN-13: 978-9348107954 eBook Description: Ultimate Robotics Programming with ROS 2 and Python: Design, Develop, and Implement Intelligent Robo…",
+      "url": "https://www.wowebook.org/ultimate-robotics-programming-with-ros-2-and-python/",
+      "urlToImage": "https://www.wowebook.org/wp-content/uploads/2025/02/Ultimate-Robotics-Programming-with-ROS-2-and-Python.webp",
+      "publishedAt": "2025-02-11T07:39:14Z",
+      "content": "eBook Details:\r\n<ul><li>Paperback: 484 pages</li><li>Publisher: WOW! eBook (December 30, 2024)</li><li>Language: English</li><li>ISBN-10: 934810795X</li><li>ISBN-13: 978-9348107954</li></ul>eBook Des… [+1185 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Wowebook.org"
+      },
+      "author": "WOW! eBook",
+      "title": "Java Cookbook, 5th Edition",
+      "description": "eBook Details: Paperback: 682 pages Publisher: WOW! eBook; 5th edition (March 18, 2025) Language: English ISBN-10: 1098169972 ISBN-13: 978-1098169978 eBook Description: Java Cookbook: Problems and Solutions for Java Developers, 5th Edition As Java continues t…",
+      "url": "https://www.wowebook.org/java-cookbook-5th-edition/",
+      "urlToImage": "https://www.wowebook.org/wp-content/uploads/2025/02/Java-Cookbook-5th-Edition.webp",
+      "publishedAt": "2025-02-11T06:52:34Z",
+      "content": "eBook Details:\r\n<ul><li>Paperback: 682 pages</li><li>Publisher: WOW! eBook; 5th edition (March 18, 2025)</li><li>Language: English</li><li>ISBN-10: 1098169972</li><li>ISBN-13: 978-1098169978</li></ul… [+1428 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Unixmen.com"
+      },
+      "author": "Janus Atienza",
+      "title": "Why Every Linux/Unix User Should Try Creative Fabrica’s Font Generator",
+      "description": "Typography isn’t just for designers—it plays a vital role in programming, terminal applications, system interfaces, and documentation readability. Whether you’re customizing your Linux desktop, developing a CLI tool, or enhancing your terminal experience, the…",
+      "url": "https://www.unixmen.com/why-every-linux-unix-user-should-try-creative-fabricas-font-generator/",
+      "urlToImage": "https://www.unixmen.com/wp-content/uploads/2025/02/pexels-brettjordan-5045981.jpg",
+      "publishedAt": "2025-02-11T11:57:51Z",
+      "content": "Typography isnt just for designersit plays a vital role in programming, terminal applications, system interfaces, and documentation readability. Whether youre customizing your Linux desktop, developi… [+6859 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Dreamwidth.org"
+      },
+      "author": null,
+      "title": "Ian Jackson: derive-deftly 1.0.0 - Rust derive macros, the easy way",
+      "description": "derive-deftly 1.0 is released.\nderive-deftly is a template-based derive-macro facility for Rust. It has been a great success. Your codebase may benefit from it too!\nRust programmers will appreciate its power, flexibility, and consistency, compared to macro_ru…",
+      "url": "https://www.dreamwidth.org/captcha?returnto=https://diziet.dreamwidth.org/19395.html",
+      "urlToImage": null,
+      "publishedAt": "2025-02-11T21:16:33Z",
+      "content": "Hello, you've been (semi-randomly) selected to take a CAPTCHA to validate\r\nyour requests. Please complete it below and hit the button!"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Sspnet.org"
+      },
+      "author": "Harrison Inefuku, Rebecca McLeod, Alice Meadows, Charlotte Roh",
+      "title": "DEIA and Doing the Right Thing",
+      "description": "Now is a time when we must continue to stand against censorship and to support the scholarly community in both our words and our actions, according to our ethics and beliefs. \nThe post DEIA and Doing the Right Thing appeared first on The Scholarly Kitchen.",
+      "url": "https://scholarlykitchen.sspnet.org/2025/02/11/deia-and-doing-the-right-thing/",
+      "urlToImage": "https://scholarlykitchen.sspnet.org/wp-content/uploads/2018/10/c4disco.jpg",
+      "publishedAt": "2025-02-11T10:30:27Z",
+      "content": "Todays post has been written on behalf of the Coalition for Diversity and Inclusion in Scholarly Communications (C4DISC) by the following members of its Steering Group: Harrison Inefuku (representing… [+8314 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Freedom-to-tinker.com"
+      },
+      "author": "Center for Information Technology Policy",
+      "title": "Balancing Free Speech & Safety: Envisioning a Human-Centered First Amendment for AI Regulation – TechTakes",
+      "description": "How should the law handle manipulative AI content, like bots that encourage self-harm or give explicit instructions for it? The U.S. First Amendment protects speakers, and AI companies might justifiably claim its protections. But does the user of AI content h…",
+      "url": "https://freedom-to-tinker.com/2025/02/11/balancing-free-speech-safety-envisioning-a-human-centered-first-amendment-for-ai-regulation-techtakes/",
+      "urlToImage": "https://freedom-to-tinker.com/wp-content/uploads/2025/02/Inyoung-Cheong-Feb-2025-International-Associating-for-Safe-Ethical-AI-1024x768.jpeg",
+      "publishedAt": "2025-02-11T16:55:49Z",
+      "content": "How should the law handle manipulative AI content, like bots that encourage self-harm or give explicit instructions for it? The U.S. First Amendment protects speakers, and AI companies might justifia… [+5080 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "The New York Review of Books"
+      },
+      "author": "Kaitlyn Greenidge, Merve Emre",
+      "title": "Making Artifacts",
+      "description": "Kaitlyn Greenidge has worked as a park ranger, a phone banker, and an app designer, all while writing the essays and reviews that launched her career. She maintains a refreshingly eclectic approach to her profession, freely and boldly cutting through categori…",
+      "url": "https://www.nybooks.com/online/2025/02/11/making-artifacts-kaitlyn-greenidge/",
+      "urlToImage": "https://www.nybooks.com/wp-content/uploads/2025/02/Kaitlyn-Greenidge-1.jpg",
+      "publishedAt": "2025-02-11T13:00:00Z",
+      "content": "Kaitlyn Greenidge has worked as a park ranger, a phone banker, and an app designer, all while writing the essays and reviews that launched her career. She maintains a refreshingly eclectic approach t… [+25535 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "TheWrap"
+      },
+      "author": "JD Knapp",
+      "title": "Kit Williamson Says ‘Unconventional’ Co-Star Kathy Griffin’s Cancellation Remains a Mirror to Society 8 Years Later",
+      "description": "\"We need specific stories that cater to our communities authentically and don't pull their punches,\" the actor tells TheWrap of his new Revry series\nThe post Kit Williamson Says ‘Unconventional’ Co-Star Kathy Griffin’s Cancellation Remains a Mirror to Society…",
+      "url": "https://www.thewrap.com/kit-williamson-unconventional-kathy-griffin-revry-interview/",
+      "urlToImage": "https://i0.wp.com/www.thewrap.com/wp-content/uploads/2025/02/unconventional-2.jpg?fit=1200%2C675&quality=89&ssl=1",
+      "publishedAt": "2025-02-11T18:00:00Z",
+      "content": "When Kit Williamsons EastSiders premiered on YouTube in December 2012, Netflix had not yet debuted its first original series. A dozen years later, streaming has overtaken traditional television in th… [+6446 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "TheWrap"
+      },
+      "author": "Sean Burch",
+      "title": "BuzzFeed CEO Says AI ‘Destroyed the Internet,’ Plans New Social App for ‘Human Creativity Fighting Against the Machine’",
+      "description": "Jonah Peretti says his sites will double down on human curation and that he will soon be launching a new social app\nThe post BuzzFeed CEO Says AI ‘Destroyed the Internet,’ Plans New Social App for ‘Human Creativity Fighting Against the Machine’ appeared first…",
+      "url": "https://www.thewrap.com/buzzfeed-ceo-big-tech-ai-destroyed-the-internet/",
+      "urlToImage": "https://www.thewrap.com/wp-content/uploads/2025/02/JonahPeretti.png",
+      "publishedAt": "2025-02-11T17:36:06Z",
+      "content": "BuzzFeed founder and CEO Jonah Peretti on Tuesday said Big Tech companies like Meta and TikTok, as well as the emergence of artificial intelligence, destroyed the internet. \r\nAt the same time, Perett… [+2832 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Cisco.com"
+      },
+      "author": "Par Merat",
+      "title": "Cisco Learning Promotes AI Readiness with AI Learning Journey and New Certifications",
+      "description": "Our new AI Infrastructure learning path covers the entire AI learning continuum, from entry level to expert. By following this learning path, built with a focus on multi-vendor deployments, professionals will gain the AI infrastructure skills needed to move t…",
+      "url": "https://blogs.cisco.com/news/cisco-learning-promotes-ai-readiness-with-ai-learning-journey-and-new-certifications",
+      "urlToImage": "https://storage.googleapis.com/blogs-images-new/ciscoblogs/1/2025/02/AdobeStock_850429841-scaled.jpeg",
+      "publishedAt": "2025-02-11T08:15:53Z",
+      "content": "AI is everywhere and not just in conversation and on the news. Its in software, in workflows, and across network and security operations. Its a transformational moment for job roles and job tasks, wh… [+7767 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Cisco.com"
+      },
+      "author": "Lawrence Huang",
+      "title": "Cisco Unveils New Future-Proofed Workplace Innovations in Amsterdam",
+      "description": "Cisco is announcing new Wi-Fi 7 access points for every scale, advanced smart security cameras to safeguard branches, and comprehensive network assurance with ThousandEyes Traffic Insights.",
+      "url": "https://blogs.cisco.com/networking/cisco-unveils-new-future-proofed-workplace-innovations-in-amsterdam",
+      "urlToImage": "https://storage.googleapis.com/blogs-images-new/ciscoblogs/1/2025/02/Cisco_Future-Proof-Workplace_1200x400_A.png",
+      "publishedAt": "2025-02-11T08:15:28Z",
+      "content": "When I talk to customers, I often hear that their workplaces are not ready to handle the competing demands created by distributed work and the influx of AI and IoT. Regardless of industry or physical… [+10136 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Mediaite"
+      },
+      "author": "Kipp Jones",
+      "title": "PBS Caves To Trump, Ousts Staffers: ‘We Have Closed Our DEI Office’",
+      "description": "The Public Broadcasting Service announced Monday evening it had closed its diversity, equity, and inclusion office in order to comply with an executive order signed by President Donald Trump. PBS also said the staffers in that office had left the company, but…",
+      "url": "https://www.mediaite.com/news/pbs-caves-to-trump-ousts-staffers-we-have-closed-our-dei-office/",
+      "urlToImage": "https://www.mediaite.com/wp-content/uploads/2025/02/IMG-3437.jpeg",
+      "publishedAt": "2025-02-11T02:39:38Z",
+      "content": "Screenshot\r\nThe Public Broadcasting Service announced Monday evening it had closed its diversity, equity, and inclusion office in order to comply with an executive order signed by President Donald Tr… [+2144 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Memeorandum.com"
+      },
+      "author": null,
+      "title": "The Right to be Woke - Plus: Tom Brady and the culture of sore winners. (The Bulwark)",
+      "description": "The Bulwark:\nThe Right to be Woke  —  Plus: Tom Brady and the culture of sore winners.  —  Two programming notes for today: At 1 p.m. ET today, JVL will go live on the site with Jim Acosta in the first chat for our pop-up series, WTF 2.0.  Jim recently left C…",
+      "url": "https://www.memeorandum.com/250211/p52",
+      "urlToImage": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F95f09fd7-3e17-40f2-8197-392ec0c9ad48_5000x3333.jpeg",
+      "publishedAt": "2025-02-11T16:05:01Z",
+      "content": "memeorandum is an auto-generated summary of the stories that US political commentators are discussing online right now.\r\nUnlike sister sites Techmeme and Mediagazer, it is not a human-edited news out… [+72 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Nextcity.org"
+      },
+      "author": "Kimberly Izar",
+      "title": "‘Everybody Needs a Village’: These Health Providers Are Redesigning Care for New Jersey’s Black Moms",
+      "description": "(Illustration by The Jersey Bee)\r\n\n\n \n\n\n\n\n\n\nThis story was co-reported with The Jersey Bee as part of our joint Equitable Cities Reporting Fellowship, examining segregation in Newark and Essex County, New Jersey.\n\n\nCherelle Lloyd had just given birth to her s…",
+      "url": "https://nextcity.org/urbanist-news/maternal-health-care-providers-new-jersey-black-mothers-support",
+      "urlToImage": "https://nextcity.org/images/daily/_resized/FeaturedImage_BlackMaternalHealth_Jan2024.jpg",
+      "publishedAt": "2025-02-11T11:00:00Z",
+      "content": "Cherelle Lloyd had just given birth to her son two weeks prior when she sensed something was wrong. With her hands and breasts in pain, she decided she needed outside help.\r\nIt was hurting every time… [+9778 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Harvard Business Review"
+      },
+      "author": null,
+      "title": "If DEI Programs Aren’t Effective, What Is?",
+      "description": "Amid the backlash against diversity, equity, and inclusion (DEI) initiatives in the United States and elsewhere, leaders in both the public and private sectors are reevaluating their organizations' policies and goals. While many employers and employees still …",
+      "url": "https://hbr.org/podcast/2025/02/if-dei-programs-arent-effective-what-is",
+      "urlToImage": "https://hbr.org/resources/images/article_assets/2025/02/wide-ideacast_25.png",
+      "publishedAt": "2025-02-11T13:00:31Z",
+      "content": "ALISON BEARD: Welcome to the HBR IdeaCast from Harvard Business Review. I’m Alison Beard.\r\nIn the United States and other parts of the world, there’s a big debate happening right now over how public … [+26670 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "iPhone in Canada"
+      },
+      "author": "Usman Qureshi",
+      "title": "TV Has Surpassed Mobile for YouTube Viewership, Says CEO",
+      "description": "YouTube CEO has announced that TV screens have surpassed mobile devices as the primary medium for YouTube consumption in the U.S.\nThe post TV Has Surpassed Mobile for YouTube Viewership, Says CEO first appeared on iPhone in Canada Blog.",
+      "url": "https://www.iphoneincanada.ca/2025/02/11/tv-surpasses-mobile-for-youtube-viewership/",
+      "urlToImage": "https://cdn.iphoneincanada.ca/wp-content/uploads/2017/09/iic-logo-1.svg",
+      "publishedAt": "2025-02-11T18:34:31Z",
+      "content": "YouTube CEO Neal Mohan has announced that television screens have surpassed mobile devices as the primary medium for YouTube consumption in the United States (via The Hollywood Reporter).\r\nMohan high… [+1869 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "TweakTown"
+      },
+      "author": "Kosta Andreadis",
+      "title": "Microsoft rejected John Carmack's plan to bring Quake 3 VR to Meta Quest",
+      "description": "John Carmack tried to get an impressive but unofficial Quake 3 VR port officially released on the Meta Store, but was rejected by id and Microsoft. Continue reading at TweakTown >",
+      "url": "https://www.tweaktown.com/news/103187/microsoft-rejected-john-carmacks-plan-to-bring-quake-3-vr-meta-quest/index.html",
+      "urlToImage": "https://static.tweaktown.com/news/1/0/103187_1_id-software-and-microsoft-rejected-john-carmacks-plan-to-bring-quake-3-vr-meta-quest_full.jpg",
+      "publishedAt": "2025-02-11T05:01:02Z",
+      "content": "TL;DR: John Carmack, a pioneer in first-person shooters, contributed significantly to VR gaming at Oculus. Despite his efforts to make Quake 3 VR official, his proposal was rejected by Microsoft. Thi… [+2256 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Insurance Journal"
+      },
+      "author": "admin",
+      "title": "Michigan DIFS Advocates for Careers in the Insurance Industry as Part of Careers Month",
+      "description": "The Michigan Department of Insurance and Financial Services (DIFS) is highlighting in-demand jobs available to Michiganders in the insurance field as part of Insurance Careers Month. More than 73,000 Michiganders work in the insurance industry, according to a…",
+      "url": "https://www.insurancejournal.com/news/midwest/2025/02/11/811634.htm",
+      "urlToImage": "https://www.insurancejournal.com/img/social/opengraph/ij-social-default-1200x630.png",
+      "publishedAt": "2025-02-11T17:53:18Z",
+      "content": "The Michigan Department of Insurance and Financial Services (DIFS) is highlighting in-demand jobs available to Michiganders in the insurance field as part of Insurance Careers Month.\r\nMore than 73,00… [+1849 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Funcheap.com"
+      },
+      "author": "Website Contributor",
+      "title": "2/14/25: SF Google Pixel House at NBA All-Star Weekend (Feb. 14-16) - FREE",
+      "description": "Google Pixel House at NBA All-Star Weekend!\nAn immersive, Pixel mobile phone-powered experience where fans can explore Gemini Live features as they step into their favorite player’s home, filled with interactive NBA-themed Easter eggs. Highlights include crea…",
+      "url": "https://sf.funcheap.com/sf-nba-allstar-weekend-google-pixel-house-feb-1416/",
+      "urlToImage": "https://cdn.funcheap.com/wp-content/uploads/2025/02/undefined-Imgur.jpg",
+      "publishedAt": "2025-02-11T20:08:39Z",
+      "content": "Google Pixel House at NBA All-Star Weekend!\r\nAn immersive, Pixel mobile phone-powered experience where fans can explore Gemini Live features as they step into their favorite player’s home, filled wit… [+2209 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Realpython.com"
+      },
+      "author": "Real Python",
+      "title": "Building a Python Command-Line To-Do App With Typer",
+      "description": "In this step-by-step video course, you'll create a to-do application for your command line using Python and Typer. While you build this app, you'll learn the basics of Typer, a modern and versatile library for building command-line interfaces (CLI).",
+      "url": "https://realpython.com/courses/build-command-line-todo-app-typer/",
+      "urlToImage": "https://files.realpython.com/media/Create-a-CLI-application-with-Typer_Watermarked.5fca92d22184.jpeg",
+      "publishedAt": "2025-02-11T14:00:00Z",
+      "content": "Building an application to manage your to-do list can be an interesting project when you’re learning a new programming language or trying to take your skills to the next level. In this video course, … [+816 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Adweek"
+      },
+      "author": "Kathryn Lundstrom",
+      "title": "How Publicis Media Is Betting on Women’s Sports",
+      "description": "On a muggy morning in New Orleans--the day before the Super Bowl--Publicis Media hosted a brunch with some of the biggest execs in women's sports. The gathering was also a pre-launch party for Women's Sports Connect, a new offering available today from the me…",
+      "url": "https://www.adweek.com/convergent-tv/publicis-media-betting-on-womens-sports/",
+      "urlToImage": "https://www.adweek.com/wp-content/uploads/2025/02/publicis-media-womens-sports-connect.jpeg?w=600&h=315&crop=1",
+      "publishedAt": "2025-02-11T13:00:00Z",
+      "content": "On a muggy morning in New Orleansthe day before the Super BowlPublicis Media hosted a brunch with some of the biggest execs in womens sports. \r\nThe gathering was also a pre-launch party for Womens Sp… [+2859 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Globalsecurity.org"
+      },
+      "author": "John Pike",
+      "title": "Secretary of State Marco Rubio with Scott Jennings on SiriusXM Patriot",
+      "description": "No description",
+      "url": "https://www.globalsecurity.org/military/library/news/2025/02/mil-250210-state01.htm",
+      "urlToImage": null,
+      "publishedAt": "2025-02-11T05:00:47Z",
+      "content": "US Department of State\r\nInterviewMarco Rubio, Secretary of StateWashington, D.C.February 10, 2025\r\nQUESTION: Scott Jennings sitting here on SiriusXM Patriot 125, normally the David Webb Show. I am gu… [+24655 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Publishingperspectives.com"
+      },
+      "author": "Porter Anderson",
+      "title": "Paris AI Action Summit: UK and USA Decline to Sign On",
+      "description": "The third AI Action Summit, this one in Paris, closes with only partial support for an international accord on development.\nThe post Paris AI Action Summit: UK and USA Decline to Sign On appeared first on Publishing Perspectives.",
+      "url": "https://publishingperspectives.com/2025/02/paris-ai-action-summit-uk-and-usa-decline-to-sign-on/",
+      "urlToImage": "https://publishingperspectives.com/wp-content/uploads/2025/02/710-TEASE-iStock-2166136779-sansa55-Palais-Grand-site-of-3rd-AI-Summit-ftw.jpg",
+      "publishedAt": "2025-02-11T20:20:58Z",
+      "content": "The third AI Action Summit, this one in Paris, closes with only partial support for an international accord on development.\r\nBy Porter Anderson, Editor-in-Chief | @Porter_Anderson\r\nSee also:In India,… [+5812 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Substack.com"
+      },
+      "author": "Eric Normand",
+      "title": "Expressivity: A fourth definition",
+      "description": "On the elusive nature of meaning in everyday words",
+      "url": "https://ericnormand.substack.com/p/expressivity-a-fourth-definition",
+      "urlToImage": "https://substackcdn.com/image/fetch/w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F588df500-d805-4964-a32a-1a85e65ac4f8_1024x1024.webp",
+      "publishedAt": "2025-02-11T11:02:33Z",
+      "content": "The Apropos show with Zach Tellman was a success (despite a technical hiccup; it wouldn’t really be Apropos without hiccups). And this week we have Alex Miller as a guest. Will Alex explain monads or… [+3270 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Lifesciencesworld.com"
+      },
+      "author": "LSW Team",
+      "title": "How to debug cobra in Golang?",
+      "description": "Debugging Cobra in Golang: A Step-by-Step Guide Cobra is a popular command-line interface (CLI) library for Go that provides a […]\nThe post How to debug cobra in Golang? appeared first on Life Sciences World.",
+      "url": "https://lifesciencesworld.com/how-to-debug-cobra-in-golang/",
+      "urlToImage": "https://lifesciencesworld.com/wp-content/uploads/2024/12/featured.png",
+      "publishedAt": "2025-02-11T04:55:32Z",
+      "content": "Debugging Cobra in Golang: A Step-by-Step Guide\r\nCobra is a popular command-line interface (CLI) library for Go that provides a simple and efficient way to build command-line tools. However, like any… [+5199 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "The Online Citizen"
+      },
+      "author": "The Online Citizen",
+      "title": "2025 Taipei Lantern Festival dazzles with culture, art, and light",
+      "description": "The 2025 Taipei Lantern Festival opened on 2 February with a grand ceremony in Ximending, led by Taipei Mayor Chiang Wan-an. Spanning four zones, the festival runs until 16 February, featuring the main lantern Lucky Snake Dou Dou, light installations, perform…",
+      "url": "https://www.theonlinecitizen.com/2025/02/11/2025-taipei-lantern-festival-dazzles-with-culture-art-and-light/",
+      "urlToImage": "https://cdn.theonlinecitizen.com/uploads/2025/02/11120225/snake-taiwan.png",
+      "publishedAt": "2025-02-11T04:31:21Z",
+      "content": "The 2025 Taipei Lantern Festival officially began on 2 February 2025, with a grand opening ceremony in Ximending that attracted a large crowd despite light rain.\r\nTaipei Mayor Chiang Wan-an presided … [+2753 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Eisentraut.org"
+      },
+      "author": "Peter Eisentraut",
+      "title": "Peter Eisentraut: How about trailing commas in SQL?",
+      "description": "Anecdotally, this might be the most requested feature in SQL: Allow\nsome trailing commas.\n\nThe classic example is\n\nSELECT a,\n b,\n c, -- here\nFROM ...\n\r\n\n\nAnother one is\n\nCREATE TABLE tab1 (\n a int,\n b int,\n c int, -- here\n)\n\r\n\n\nThere might be a few other popu…",
+      "url": "http://peter.eisentraut.org/blog/2025/02/11/how-about-trailing-commas-in-sql",
+      "urlToImage": null,
+      "publishedAt": "2025-02-11T05:00:00Z",
+      "content": "Anecdotally, this might be the most requested feature in SQL: Allow\r\nsome trailing commas.\r\nThe classic example is\r\nSELECT a,\r\n b,\r\n c, -- here\r\nFROM ...\r\nAnother one is\r\nCREATE TABLE tab1 (\r\n a int,… [+3772 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Defense One"
+      },
+      "author": "Patrick Tucker",
+      "title": "Gutting of USAID is making it harder to monitor aid sent abroad, watchdog says",
+      "description": "Agency’s IG says locking staff out increases the risk of funds going to “U.S.-designated terrorist organizations.”",
+      "url": "https://www.defenseone.com/threats/2025/02/gutting-usaid-making-it-harder-monitor-aid-sent-abroad-watchdog-says/402901/",
+      "urlToImage": "https://cdn.defenseone.com/media/img/cd/2025/02/11/GettyImages_2198230063/open-graph.jpg",
+      "publishedAt": "2025-02-11T07:29:02Z",
+      "content": "The Trump administration has decimated the U.S. government's ability to spot fraud and abuse in the flow of aid to other countries, according to a Monday memo from the inspector general of the lead f… [+5790 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "JoBlo.com"
+      },
+      "author": "EJ Tangonan",
+      "title": "Ke Huy Quan recalls a time Harrison Ford had to calm him down when he was scared filming a scene for Indiana Jones and the Temple of Doom",
+      "description": "The Love Hurts star reminisces about filming the intense sequences and having Ford reassure him that everything was going to be alright.\nThe post Ke Huy Quan recalls a time Harrison Ford had to calm him down when he was scared filming a scene for Indiana Jone…",
+      "url": "https://www.joblo.com/ke-huy-quan-indiana-jones-and-the-temple-of-doom/",
+      "urlToImage": "https://www.joblo.com/wp-content/uploads/2025/02/indiana-jones-short-round-header-copy.jpg",
+      "publishedAt": "2025-02-11T16:52:06Z",
+      "content": "The Love Hurts star reminisces about filming the intense sequences and having Ford reassure him that everything was going to be alright.\r\nKe Huy Quans first time out as a leading man is currently in … [+1993 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Contexts.org"
+      },
+      "author": "Giora Ashkenazi at Contexts",
+      "title": "Is Authentic Dating Possible?",
+      "description": "In a recent New York Times article, journalist Eli Tan shared his experiences using AI clones to improve his dating life. After programming these clones with information about his hobbies and mannerisms, he tasked them with evaluating potential matches. The c…",
+      "url": "https://contexts.org/blog/authentic-dating/",
+      "urlToImage": null,
+      "publishedAt": "2025-02-11T15:37:03Z",
+      "content": "iStockPhoto // simplehappyart\r\nIn a recent New York Times article, journalist Eli Tan shared his experiences using AI clones to improve his dating life. After programming these clones with informatio… [+5399 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "SiliconANGLE News"
+      },
+      "author": "Duncan Riley",
+      "title": "F5 targets AI-era IT challenges with ADC 3.0 reference architectures",
+      "description": "Application security firm F5 Inc. today laid out a new framework for the evolution of application delivery controllers aimed at addressing the increasing complexity of hybrid, multicloud and artificial intelligence-powered information technology environments.…",
+      "url": "https://siliconangle.com/2025/02/11/f5-targets-ai-era-challenges-adc-3-0-reference-architectures/",
+      "urlToImage": "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2024/12/f5adc3.png",
+      "publishedAt": "2025-02-11T12:00:11Z",
+      "content": "Application security firm F5 Inc. today laid out a new framework for the evolution of application delivery controllers aimed at addressing the increasing complexity of hybrid, multicloud and artifici… [+3795 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Exystence.net"
+      },
+      "author": "driX",
+      "title": "Roland Kayn – Elektroakustische Projekte & Makro (2025)",
+      "description": "Building upon the ground of their previous “Infra”, “Scanning”, and “Tektra” collections, Reiger Records Reeks continues its dedication to Roland Kayn’s monumental back catalog, delivering Elektroakustische Projekte & Makro, a towering 5CD box set reissuing t…",
+      "url": "https://exystence.net/blog/2025/02/11/roland-kayn-elektroakustische-projekte-makro-2025/",
+      "urlToImage": null,
+      "publishedAt": "2025-02-11T10:17:17Z",
+      "content": "Building upon the ground of their previous Infra, Scanning, and Tektra collections, Reiger Records Reeks continues its dedication to Roland Kayns monumental back catalog, delivering Elektroakustische… [+7374 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Thefutoncritic.com"
+      },
+      "author": null,
+      "title": "AXS TV Partners with Azuki's Anime.com to Present the All-New Original Series \"Anime.com Hour,\" Premiering February 13 at 10P ET",
+      "description": "The series puts the spotlight on two of the genre's most popular offerings, airing episodes of Fate/stay night [Unlimited Blade Works] and My Hero Academia [Season 1-2].",
+      "url": "http://www.thefutoncritic.com/news/2025/02/11/axs-tv-partners-with-azukis-animecom-to-present-the-all-new-original-series-animecom-hour-premiering-february-13-at-10p-et-24511/20250211axstv01/",
+      "urlToImage": null,
+      "publishedAt": "2025-02-11T09:04:00Z",
+      "content": "AXS TV PARTNERS WITH AZUKI'S ANIME.COM TO PRESENT THE ALL-NEW ORIGINAL SERIES \"ANIME.COM HOUR,\" PREMIERING FEBRUARY 13 AT 10P ET\r\nAnime.com Hour Puts the Spotlight on Two of the Genre's Most Iconic S… [+4691 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Thefutoncritic.com"
+      },
+      "author": null,
+      "title": "Reelz Announces First Ever \"On Patrol: Live Week\"",
+      "description": "10 fan-favorite episodes were chosen via viewer voting at Reelz.com and feature what #OPNation deemed the show's most memorable moments.",
+      "url": "http://www.thefutoncritic.com/news/2025/02/11/reelz-announces-first-ever-on-patrol-live-week-817115/20250211reelz01/",
+      "urlToImage": null,
+      "publishedAt": "2025-02-11T05:00:00Z",
+      "content": "REELZ ANNOUNCES FIRST EVER \"ON PATROL: LIVE WEEK\"\r\nOPL's Live Episodes on Friday and Saturday, Feb. 21 &amp; 22 to be Followed by Fan-Voted \"Favorites\" Airing Sunday-Thursday, Feb. 23-27\r\n(Albuquerqu… [+8453 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Thefutoncritic.com"
+      },
+      "author": null,
+      "title": "TNT Sports to Showcase NBA All-Star 2025 Across TNT, TBS, truTV, Bleacher Report & Max, Feb. 14-16, from San Francisco Bay Area",
+      "description": "The 2025 NBA All-Star Game - TNT's 23rd consecutive year airing the event - will feature a new mini-tournament format, with the 24 NBA All-Star selections divided evenly into three teams and the fourth team composed of the Castrol Rising Stars champions.",
+      "url": "http://www.thefutoncritic.com/news/2025/02/11/tnt-sports-to-showcase-nba-all-star-2025-across-tnt-tbs-trutv-bleacher-report-and-max-feb-14-16-from-san-francisco-bay-area-264412/20250211wbd01/",
+      "urlToImage": null,
+      "publishedAt": "2025-02-11T11:24:00Z",
+      "content": "TNT Sports to Showcase NBA All-Star 2025 Across TNT, TBS, truTV, Bleacher Report &amp; Max, Feb. 14-16, from San Francisco Bay Area\r\nBrian Anderson &amp; Reggie Miller to Call Newly Formatted NBA All… [+5932 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Thefutoncritic.com"
+      },
+      "author": null,
+      "title": "Video: Disney-ESPN's Andscape Debuts Trailer for New Feature, \"Memes & Nightmares,\" A Tribeca Film Festival Selection",
+      "description": "\"Memes & Nightmares\" is a hilarious and insightful satirical film that dives into the vibrant world of NBA Twitter.",
+      "url": "http://www.thefutoncritic.com/video/2025/02/11/video-disney-espns-andscape-debuts-trailer-for-new-feature-memes-and-nightmares-a-tribeca-film-festival-selection-715110/20250211andscape01/",
+      "urlToImage": null,
+      "publishedAt": "2025-02-11T07:46:00Z",
+      "content": "Disney-ESPN'S Andscape Debuts Trailer for New Feature, MEMES &amp; NIGHTMARES, a Tribeca Film Festival Selection \r\nMEMES &amp; NIGHTMARES Will Premiere Exclusively on Hulu on February 20th \r\nSYNOPSIS… [+4178 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Thefutoncritic.com"
+      },
+      "author": null,
+      "title": "FOX \"Super Week\" Kicks Off, Breaking Records with \"The Floor\" as Season's #1 Entertainment Series Telecast and New Survival Competition \"Extracted\" Off to a Wild Start",
+      "description": "For six consecutive seasons, FOX has delivered the highest-rated unscripted entertainment series telecast.",
+      "url": "http://www.thefutoncritic.com/ratings/2025/02/11/fox-super-week-kicks-off-breaking-records-with-the-floor-as-seasons-number-1-entertainment-series-telecast-and-new-survival-competition-extracted-off-to-a-wild-start-163411/20250211fox02/",
+      "urlToImage": null,
+      "publishedAt": "2025-02-11T13:15:00Z",
+      "content": "FOX \"SUPER WEEK\" KICKS OFF, BREAKING RECORDS WITH \"THE FLOOR\" AS SEASON'S #1 ENTERTAINMENT SERIES TELECAST AND NEW SURVIVAL COMPETITION \"EXTRACTED\" OFF TO A WILD START\r\n\"THE FLOOR\" SEASON PREMIERE SC… [+5315 chars]"
+    }
+  ]
+}

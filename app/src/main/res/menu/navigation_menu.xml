@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/twotone_newspaper_clipping"
+        android:id="@+id/mainNewsFragment"
+        android:title="Not News" />
+    <item
+        android:icon="@drawable/twotone_arrow_downward_24"
+        android:id="@+id/downloadedNewsFragment"
+        android:title="Downloaded News" />
+    <item
+        android:icon="@drawable/twotone_settings_24"
+        android:id="@+id/preferencesFragment"
+        android:title="Preferences" />
+    <item
+        android:icon="@drawable/baseline_android_24"
+        android:id="@+id/aboutFragment"
+        android:title="About the developer" />
+</menu>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/mainNewsFragment">
+    <fragment
+        android:id="@+id/mainNewsFragment"
+        android:name="com.notdroid.notnews.fragments.MainNewsFragment"
+        android:label="Not News">
+        <action
+            android:id="@+id/to_simpleWebViewFragment"
+            app:destination="@id/simpleWebViewFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/downloadedNewsFragment"
+        android:name="com.notdroid.notnews.fragments.DownloadedNewsFragment"
+        android:label="Downloaded News">
+        <action
+            android:id="@+id/to_OfflineWebViewFragment"
+            app:destination="@id/simpleWebViewFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/simpleWebViewFragment"
+        android:name="com.notdroid.notnews.fragments.SimpleWebViewFragment"
+        android:label="@string/lite_browser" >
+        <argument
+            android:name="url"
+            app:argType="string" />
+        <argument
+            android:name="articleImageUrl"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/preferencesFragment"
+        android:name="com.notdroid.notnews.fragments.PreferencesFragment"
+        android:label="@string/settings" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.notdroid.notnews.fragments.AboutFragment"
+        android:label="About me..." />
+</navigation>

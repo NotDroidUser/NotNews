@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/app_behavior">
+
+    <EditTextPreference
+        android:defaultValue=""
+        android:icon="@drawable/baseline_lock_24"
+        android:inputType="text|textNoSuggestions"
+        android:key="@string/api_key_preferences_key"
+        android:summary="@string/api_key_summary"
+        android:title="@string/api_key" />
+    <EditTextPreference
+        android:defaultValue="news"
+        android:icon="@drawable/baseline_search_24"
+        android:inputType="text|textNoSuggestions"
+        android:key="@string/query_preferences_key"
+        android:summary="@string/query_summary"
+        android:title="@string/query" />
+    <EditTextPreference
+        app:defaultValue="30"
+        android:icon="@drawable/baseline_calendar_today_24"
+        android:inputType="number|textNoSuggestions"
+        android:key="@string/days_expire_preferences_key"
+        android:summary="@string/days_expire_summary"
+        android:title="@string/days_expire"
+        />
+    <SwitchPreferenceCompat
+        android:defaultValue="true"
+        app:icon="@drawable/baseline_web_24"
+        app:key="@string/move_up_key"
+        app:title="@string/move_up"/>
+
+        <PreferenceCategory
+            android:layout_height="wrap_content"
+            app:title="@string/viewer_settings">
+
+            <SwitchPreferenceCompat
+                android:defaultValue="true"
+                app:icon="@drawable/baseline_web_24"
+                app:key="@string/webview_preferences_key"
+                app:summary="@string/webview_summary"
+                app:title="@string/webview" />
+            <SwitchPreferenceCompat
+                android:defaultValue="true"
+                android:dependency="@string/webview_preferences_key"
+                app:icon="@drawable/baseline_subject_24"
+                app:key="@string/lite_web_preferences_key"
+                app:summary="@string/lite_web_summary"
+                app:title="@string/lite_web" />
+            <SwitchPreferenceCompat
+                android:defaultValue="false"
+                app:icon="@drawable/baseline_format_line_spacing_24"
+                app:key="@string/lite_web_js_preferences_key"
+                app:summary="@string/lite_web_js_summary"
+                app:title="@string/lite_web_js"
+                android:dependency="@string/lite_web_preferences_key"/>
+            <EditTextPreference
+                android:defaultValue="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0"
+                android:icon="@drawable/baseline_explore_24"
+                android:inputType="text|textNoSuggestions"
+                android:key="@string/user_agent_lite_browser_pref_key"
+                android:summary="@string/user_agent_lite_browser_summary"
+                android:title="@string/user_agent_lite_browser"
+                android:dependency="@string/lite_web_preferences_key"/>
+            <PreferenceCategory app:title="@string/dl">
+                <SwitchPreferenceCompat
+                    app:dependency="@string/lite_web_preferences_key"
+                    app:icon="@drawable/ic_arrow_downward_24"
+                    app:key="@string/autodl_preferences_key"
+                    app:summary="@string/autodl_summary"
+                    app:title="@string/autodl"
+                    app:defaultValue="false"/>
+            </PreferenceCategory>
+        </PreferenceCategory>
+
+
+
+    </PreferenceCategory>
+</androidx.preference.PreferenceScreen>

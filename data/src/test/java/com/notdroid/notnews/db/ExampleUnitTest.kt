@@ -1,4 +1,4 @@
-package com.notdroid.notnews
+package com.notdroid.notnews.db
 
 import org.junit.Test
 

@@ -1,16 +1,19 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+    alias(libs.plugins.android.navigation.safeargs)
+    alias(libs.plugins.kotlin.ksp)
+    alias(libs.plugins.google.dagger.hilt.android)
 }
 
 android {
     namespace 'com.notdroid.notnews'
-    compileSdk 34
+    compileSdk 36
 
     defaultConfig {
         applicationId "com.notdroid.notnews"
         minSdk 24
-        targetSdk 34
+        targetSdk 36
         versionCode 1
         versionName "1.0"
 
@@ -27,13 +30,75 @@ android {
         sourceCompatibility JavaVersion.VERSION_11
         targetCompatibility JavaVersion.VERSION_11
     }
+
+    viewBinding{
+        enabled=true
+    }
+
     kotlinOptions {
         jvmTarget = '11'
     }
+    sourceSets {
+        main {
+            assets {
+                srcDirs 'src\\main\\assets'
+            }
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+    google()
+    maven {
+        url 'https://jitpack.io'
+    }
+
 }
 
 dependencies {
 
+    implementation project(":data")
+
+    // For use room db
+    implementation libs.room.common
+    implementation libs.room.runtime
+
+    //Preferences
+    implementation libs.androidx.preference
+
+    // Dagger dependencies
+    implementation libs.google.dagger
+    ksp libs.google.dagger.compiler
+    implementation libs.google.hilt
+    ksp libs.google.hilt.compiler
+
+    // Retrofit dependencies
+    implementation libs.retrofit2
+    implementation libs.retrofit2.converter.gson
+
+    // Live Data KTX for flow to Live Data
+    implementation libs.androidx.lifecycle.ktx
+
+    // Glide dependency
+    implementation libs.glide
+
+    // For dont deppend on js script for the document
+    implementation libs.readability4j
+
+    // For Refreshing the layout
+    implementation libs.androidx.swiperefreshlayout
+
+    // Navigation libs
+    implementation libs.androidx.navigation.fragment.ktx
+    implementation libs.androidx.navigation.fragment
+    implementation libs.androidx.navigation.ui.ktx
+    implementation libs.jsoup
+
+    // Base64 Api 24-25
+    implementation libs.commons.codec
+
+    // Default ones
     implementation libs.androidx.core.ktx
     implementation libs.androidx.appcompat
     implementation libs.material

@@ -1,3 +1,77 @@
 <resources>
     <string name="app_name">NotNews</string>
+    <string name="by_text">by</string>
+
+    <!-- App Behavior Category -->
+    <string name="app_behavior">App Behavior Settings</string>
+
+    <string name="api_key_preferences_key" translatable="false">APIKEY</string>
+    <string name="api_key">API KEY</string>
+    <string name="api_key_summary">NewsAPI KEY for testing purposes.....</string>
+
+    <string name="query_preferences_key" translatable="false">DEFAULTQUERY</string>
+    <string name="query">Default Query</string>
+    <string name="query_summary">NewsAPI default query, this one is bc they don\'t allow a search without any term.....</string>
+
+    <string name="days_expire_preferences_key" translatable="false">DAYSEXPIRE</string>
+    <string name="days_expire">How many days to news expire</string>
+    <string name="days_expire_summary">Because you know you have better things to do with your time than searching a never-ending disgrace-fully list of news, put 0 to never remove them</string>
+
+    <string name="move_up_key" translatable="false">MOVEUP</string>
+    <string name="move_up">Go up on a successfully recharge of the articles</string>
+
+    <string name="viewer_settings">Viewer Settings</string>
+
+    <string name="lite_web_preferences_key" translatable="false">LITEWEB</string>
+    <string name="lite_web">Use Lite Webpage</string>
+    <string name="lite_web_summary">Lite Webpage is an extract of the website using only the html with Readability + DOMPurify + Android interface(for the colors),
+        to make the article looks like it where a simple native view, only the pictures and text from website so, no ads (or at least the js ones)</string>
+
+    <string name="lite_web_js_preferences_key" translatable="false">LITEWEBJS</string>
+    <string name="lite_web_js">Use Lite Webpage with JS</string>
+    <string name="lite_web_js_summary">The JS version of Readability is sometimes better for some sites, so there is an option to activate it,
+        but because using javascript/javascript interfaces inside a webview can introduce XSS vulnerabilities, and that isn\'t a problem here,
+        hopefully, so you can use it, yet some svg will be non themed, but it\'s also local to the apk so don\'t
+        worry about some change in the internet</string>
+
+    <string name="webview_preferences_key" translatable="false">LOCALWEBROWSER</string>
+    <string name="webview">Use Webview Browser on the app</string>
+    <string name="webview_summary">Just because the webview doesn\'t need to have to go to another app, why another browser (also optional because why not)</string>
+
+    <string name="user_agent_lite_browser_pref_key" translatable="false">USERAGENT</string>
+    <string name="user_agent_lite_browser">User agent of LiteBrowser</string>
+    <string name="user_agent_lite_browser_summary">In short says the page its a real browser when you arent from one, normally all webs don\'t mind it but some like only browsers and for those are this setting</string>
+
+
+    <!-- Dowload Category -->
+    <string name="dl">Download Settings</string>
+    <string name="autodl_preferences_key" translatable="false">DOWNLOADARTICLES</string>
+    <string name="autodl">Download Articles for offline view when you see them</string>
+    <string name="autodl_summary">Saves articles as you see them, for latter opening it offline, as you open it (also saving bandwidth/mobile data when you open it 2 or 3 times)</string>
+    <string name="autodl_service_preferences_key" translatable="false">AUTODOWNLOADSERVICE</string>
+    <string name="autodl_service">Auto Download Articles for offline view on background</string>
+    <string name="autodl_service_summary">Auto Download articles for seeing them offline later as you get know that they exist</string>
+    <string name="autodl_wifi_only_preferences_key" translatable="false">AUTODOWNLOADWIFI</string>
+    <string name="autodl_wifi_only">Auto Download articles service connection preference</string>
+    <string name="autodl_wifi_only_summary">Activates service only when you have wifi connection</string>
+    <string name="autodl_all_summary">Activates service only as you get wifi or data connection</string>
+    <string name="years_text">years ago</string>
+    <string name="year_text">year ago</string>
+    <string name="months_text">months ago</string>
+    <string name="month_text">month ago</string>
+    <string name="days_text">days ago</string>
+    <string name="day_text">day ago</string>
+    <string name="hours_text">hours ago</string>
+    <string name="hour_text">hour ago</string>
+    <string name="minutes_text">minutes ago</string>
+    <string name="minute_text">minute ago</string>
+    <string name="business_text">Business</string>
+    <string name="entertainment_text">Entertainment</string>
+    <string name="general_text">General</string>
+    <string name="health_text">Health</string>
+    <string name="science_text">Science</string>
+    <string name="sports_text">Sports</string>
+    <string name="technology_text">Technology</string>
+    <string name="lite_browser">Lite Browser</string>
+    <string name="settings">Settings</string>
 </resources>
