@@ -99,8 +99,8 @@ class SimpleWebViewModel @Inject constructor(private val repository: OfflineNews
                 agent
               ).url(url).build()
               val response = OkHttpClient().newCall(request).execute()
-              if(response.code()==200&&response.body()!=null){
-                img.attr(where,makeBase64Image(response.body()!!.bytes(),response.header("content-type")?:"image/png"))
+              if(response.code==200&&response.body!=null){
+                img.attr(where,makeBase64Image(response.body!!.bytes(),response.header("content-type")?:"image/png"))
               }
             }catch (_:IOException){
               //well that was awkward so lets keep the base url

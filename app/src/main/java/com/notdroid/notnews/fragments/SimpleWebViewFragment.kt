@@ -320,7 +320,7 @@ class SimpleWebViewFragment:Fragment(){
         "User-Agent",
         getLiteWebViewAgent()!!
       ).url(url).build()
-      request.headers().toMultimap().forEach { header ->
+      request.headers.toMultimap().forEach { header ->
         Log.d("loadArticle", "Header: ${header.key}")
         Log.d("loadArticle", "Value: ${header.value.joinToString()}")
       }
@@ -338,7 +338,7 @@ class SimpleWebViewFragment:Fragment(){
         }
 
         override fun onResponse(call: Call, response: Response) {
-          val code = response.code()
+          val code = response.code
           if(code!=200){
             activity?.runOnUiThread {
               if(getJsOrLib()){
@@ -349,7 +349,7 @@ class SimpleWebViewFragment:Fragment(){
             }
             return
           }
-          val html = response.body()?.string() ?: ""
+          val html = response.body?.string() ?: ""
           if (getJsOrLib()) {
             val jsonHtml = JSONObject.quote(html)
             activity?.runOnUiThread {
