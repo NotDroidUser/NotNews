@@ -18,7 +18,8 @@ class NewsRecyclerAdapter(private val controller: NewsController):
     fun bind(item: NewsApiLocalSave, controller: NewsController){
       binding.compose.setContent {
         NotNewsTheme {
-          NotNewCard(item,controller)
+          NotNewCard(item,controller,isOffline = true) // because it's used only on downloads now,
+        // anyways this will not be used anymore
         }
       }
       
