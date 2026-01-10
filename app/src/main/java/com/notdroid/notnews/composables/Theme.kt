@@ -26,7 +26,7 @@ val darkNotNewsApp= darkColorScheme(
 
 @Composable
 fun NotNewsTheme(content: @Composable ()->Unit){
-  val theme= if(Build.VERSION_CODES.S>Build.VERSION.SDK_INT){
+  val theme= if(Build.VERSION.SDK_INT>=Build.VERSION_CODES.S){
     if (isSystemInDarkTheme()) {
       dynamicDarkColorScheme(LocalContext.current)
     } else {
