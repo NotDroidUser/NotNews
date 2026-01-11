@@ -1,6 +1,5 @@
 package com.notdroid.notnews.fragments
 
-import android.content.Intent
 import android.content.SharedPreferences
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -12,17 +11,14 @@ import android.view.ViewGroup
 import androidx.activity.OnBackPressedCallback
 import androidx.appcompat.widget.SearchView
 import androidx.appcompat.widget.SearchView.OnQueryTextListener
-import androidx.core.net.toUri
 import androidx.core.view.MenuProvider
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
-import androidx.recyclerview.widget.LinearLayoutManager
 import com.notdroid.notnews.R
-import com.notdroid.notnews.databinding.FragmentMainBinding
-import com.notdroid.notnews.db.entities.NewsApiLocalSave
-import com.notdroid.notnews.recycler.NewsController
-import com.notdroid.notnews.recycler.NewsRecyclerAdapter
+import com.notdroid.notnews.composables.NotNewsDownloadedPage
+import com.notdroid.notnews.composables.NotNewsTheme
+import com.notdroid.notnews.databinding.FullComposeBinding
 import com.notdroid.notnews.vm.OfflineNewsViewModel
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
@@ -33,7 +29,7 @@ class DownloadedNewsFragment:Fragment() {
     @Inject
     lateinit var preferences: SharedPreferences
     private val offlineNewsViewModel: OfflineNewsViewModel by viewModels()
-    private lateinit var binding: FragmentMainBinding
+    private lateinit var binding: FullComposeBinding
 
     @Volatile
     private lateinit var searchView: SearchView
@@ -43,7 +39,8 @@ class DownloadedNewsFragment:Fragment() {
       container: ViewGroup?,
       savedInstanceState: Bundle?
     ): View {
-      binding= FragmentMainBinding.inflate(inflater,container,false)
+      binding=FullComposeBinding.inflate(inflater,container,false)
+//      binding= FragmentMainBinding.inflate(inflater,container,false)
       return binding.root
     }
 
@@ -63,7 +60,7 @@ class DownloadedNewsFragment:Fragment() {
 
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-      with(binding){
+      /*with(binding){
         binding.swipe.setOnRefreshListener {
           swipe.isRefreshing=false
         }
@@ -100,6 +97,13 @@ class DownloadedNewsFragment:Fragment() {
             voidText.visibility= View.GONE
             newsList.visibility= View.VISIBLE
           }
+        }
+      }*/
+      binding.root.setContent {
+        NotNewsTheme {
+          NotNewsDownloadedPage(offlineNewsViewModel,{item->
+            findNavController().navigate(DownloadedNewsFragmentDirections.toOfflineWebViewFragment(url = item.url, articleImageUrl = item.urlToImage))
+          })
         }
       }
       requireActivity().apply {

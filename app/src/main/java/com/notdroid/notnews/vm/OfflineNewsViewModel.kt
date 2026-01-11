@@ -1,31 +1,48 @@
 package com.notdroid.notnews.vm
 
+import androidx.compose.runtime.collectAsState
 import androidx.lifecycle.MediatorLiveData
-import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.asLiveData
 import androidx.lifecycle.viewModelScope
 import com.notdroid.notnews.db.entities.NewsApiLocalSave
 import com.notdroid.notnews.newsapi.OfflineNewsRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.SharingStarted
+import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.map
+import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.plus
 import java.util.concurrent.CancellationException
 import javax.inject.Inject
 
 @HiltViewModel
 class OfflineNewsViewModel @Inject constructor(repository: OfflineNewsRepository):ViewModel() {
-  private val filter: MutableLiveData<String> = MutableLiveData("")
-  private val news = repository.offlineArticles.asLiveData()
-
+  private val filter = MutableStateFlow("")
+  private val news = repository.offlineArticles
+  
+  val theVoidState=repository.offlineArticles.map { it.isEmpty() }.stateIn(viewModelScope+Dispatchers.IO, SharingStarted.WhileSubscribed(),true)
   val emptyResults=repository.offlineArticles.map { it.isEmpty() }.asLiveData()
 
+  val filteredNewsState= combine(news,filter){ news, filter->
+    news.filter {element->
+      filter.isEmpty()||(
+        element.url.contains(filter)||
+        element.description.contains(filter)||
+        element.title.contains(filter)||
+        element.sourceName.contains(filter))
+    }
+  }.stateIn(viewModelScope+Dispatchers.IO, SharingStarted.WhileSubscribed(), listOf())
+
   val filteredNews= MediatorLiveData<List<NewsApiLocalSave>>().apply{
-    addSource(news){ list->
+    addSource(news.asLiveData()){ list->
       this.postValue(list.filter {element->
-        val actualFilter=filter.value
+        val actualFilter=filter.asLiveData().value
         if(actualFilter.isNullOrEmpty()){
           true
         }else {
@@ -36,8 +53,8 @@ class OfflineNewsViewModel @Inject constructor(repository: OfflineNewsRepository
         }
       })
     }
-    addSource(filter){filter->
-      val actualList = news.value?: listOf()
+    addSource(filter.asLiveData()){filter->
+      val actualList = news.asLiveData().value?: listOf()
       this.postValue(actualList.filter {element->
         if(filter.isEmpty()){
           true
@@ -60,7 +77,7 @@ class OfflineNewsViewModel @Inject constructor(repository: OfflineNewsRepository
       }
     debounceJob=viewModelScope.launch {
       delay(300)
-      filter.postValue(s)
+      filter.value=s
     }
   }
 
