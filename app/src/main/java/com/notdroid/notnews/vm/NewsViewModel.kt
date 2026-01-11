@@ -25,8 +25,9 @@ import javax.inject.Inject
 class NewsViewModel @Inject constructor(val sharedPreferences: SharedPreferences, private val repository: NewsApiRepository):ViewModel() {
   private val filter: MutableStateFlow<String> = MutableStateFlow<String>("")
   private val news = repository.news
-
-  val theVoidState = repository.theVoid.map { it==0L }.stateIn(viewModelScope+Dispatchers.IO, started = SharingStarted.WhileSubscribed(0),true)
+  private val offlineNewsCount =  repository.offlineCount
+  
+  val theVoidState = repository.theVoid.map { it==0L }.stateIn(viewModelScope+Dispatchers.IO, started = SharingStarted.WhileSubscribed(),true)
   val theVoid = repository.theVoid.map { it==0L }.asLiveData()
 
   val filteredNewsState= combine(news,filter,offlineNewsCount){newsV1,filterV2,_->
@@ -36,7 +37,7 @@ class NewsViewModel @Inject constructor(val sharedPreferences: SharedPreferences
         element.title.contains(filterV2)||
         element.sourceName.contains(filterV2))
     }.map { it to isAvailableOffline(it.url) }
-  }.stateIn(viewModelScope.plus(Dispatchers.IO), SharingStarted.WhileSubscribed(0),listOf())
+  }.stateIn(viewModelScope.plus(Dispatchers.IO), SharingStarted.WhileSubscribed(),listOf())
   
   val filteredNews= MediatorLiveData<List<NewsApiLocalSave>>().apply{
     addSource(news.asLiveData()){ list->
@@ -104,18 +105,19 @@ class NewsViewModel @Inject constructor(val sharedPreferences: SharedPreferences
     }
   }
 
-  fun loadNewData(apiKey: String="",onUI:()->Unit) {
+  fun loadNewData(apiKey: String="",query:String="",onUI:()->Unit) {
     if (apiKey != "") {
       viewModelScope.launch (Dispatchers.IO){
         try {
-          repository.getNewsFromApi(apiKey = apiKey,)
+          repository.getNewsFromApi(apiKey,query)
         }catch (_:Exception){ }
+        with(Dispatchers.Main) {
+          delay(300)
+          onUI()
+        }
       }
     }
-    viewModelScope.launch {
-      delay(300)
-      onUI()
-    }
+    
   }
 
   fun loadFirstTimeData(apiKey: String="") {
