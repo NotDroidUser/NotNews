@@ -33,8 +33,8 @@ class NewsApiRepository(
 
   val news=newsDao.getNews()
   val theVoid=newsDao.getHowManyNews()
-  val notOfflineNews=newsDao.getNotOfflineNews()
-
+//  val notOfflineNews=newsDao.getNotOfflineNews()
+  val offlineCount=newsDao.getOfflineNewsCount()
   /**
    * ``Maybe you're alone with your app and no more api to consume``
    * */

@@ -29,7 +29,7 @@ class NewsViewModel @Inject constructor(val sharedPreferences: SharedPreferences
   val theVoidState = repository.theVoid.map { it==0L }.stateIn(viewModelScope+Dispatchers.IO, started = SharingStarted.WhileSubscribed(0),true)
   val theVoid = repository.theVoid.map { it==0L }.asLiveData()
 
-  val filteredNewsState= combine(news,filter){newsV1,filterV2->
+  val filteredNewsState= combine(news,filter,offlineNewsCount){newsV1,filterV2,_->
     newsV1.filter { element->
       filterV2.isEmpty()||(element.url.contains(filterV2)||
         element.description.contains(filterV2)||
