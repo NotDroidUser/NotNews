@@ -20,7 +20,10 @@ interface NewsApiDao{
 
   @Query("select * from NewsApiLocalSave where hidden==:onlyDisabled order by publishedAt Desc ")
   fun getNews(onlyDisabled:Boolean=false): Flow<List<NewsApiLocalSave>>
-
+  
+  @Query("select count(id) from OfflineArticle")
+  fun getOfflineNewsCount(): Flow<Int>
+  
   @Query("select NewsApiLocalSave.*, OfflineArticle.url as nullable " +
       "from NewsApiLocalSave left join OfflineArticle on OfflineArticle.url==NewsApiLocalSave.url " +
       "where nullable==NULL order by publishedAt Desc")
