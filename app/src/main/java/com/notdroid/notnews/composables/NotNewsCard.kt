@@ -1,7 +1,7 @@
 package com.notdroid.notnews.composables
 
-import android.view.View
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.combinedClickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -26,17 +26,25 @@ import androidx.compose.ui.unit.dp
 import coil3.compose.AsyncImage
 import com.notdroid.notnews.R
 import com.notdroid.notnews.db.entities.NewsApiLocalSave
-import com.notdroid.notnews.recycler.NewsController
 import com.notdroid.notnews.stringify
 
 
 @Composable
-fun NotNewCard(item:NewsApiLocalSave,controller:NewsController,isOffline: Boolean,modifier: Modifier=Modifier) {
+fun NotNewCard(item:NewsApiLocalSave, onClick:(NewsApiLocalSave)->Unit, isOffline: Boolean, modifier: Modifier=Modifier) {
   val imageUrl=remember{item.urlToImage}
-  val isOffline = remember {isOffline}
-  Card(onClick = {controller.onTouchItem(item)}, CombinedModifier(modifier, Modifier.padding(16.dp))) {
+  Card(CombinedModifier(modifier, Modifier
+    .padding(16.dp)
+    .combinedClickable(
+      onClick = { onClick(item) },
+      onLongClick = {
+        //future
+      },
+      hapticFeedbackEnabled = true
+    ))) {
     if (imageUrl.isNotEmpty()){
-      AsyncImage(model =item.urlToImage, contentDescription = "", contentScale = ContentScale.FillBounds, modifier = Modifier.fillMaxWidth().height(200.dp))
+      AsyncImage(model =item.urlToImage, contentDescription = "", contentScale = ContentScale.FillBounds, modifier = Modifier
+        .fillMaxWidth()
+        .height(200.dp))
     }
     Column(verticalArrangement = Arrangement.Center, modifier = Modifier.padding(16.dp)) {
       Text(item.title, fontFamily = FontFamily.SansSerif , fontWeight = FontWeight.W400,style= MaterialTheme.typography.titleLarge, modifier =  Modifier.padding(bottom = 16.dp))
@@ -65,16 +73,7 @@ fun NotNewCard(item:NewsApiLocalSave,controller:NewsController,isOffline: Boolea
 @Composable
 private fun NotNewCardPreview(){
   NotNewsTheme {
-    NotNewCard(PreviewUtils.generateMockApi(1)[0],
-      object :NewsController{
-      override fun isAvailableOffline(url: String, isOffline: View) {
-      
-      }
-      
-      override fun onTouchItem(item: NewsApiLocalSave) {
-  
-      }
-    },true)
+    NotNewCard(PreviewUtils.generateMockApi(1)[0], {},true)
   }
 }
 

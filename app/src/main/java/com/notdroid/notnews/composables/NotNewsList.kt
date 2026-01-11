@@ -1,21 +1,31 @@
 package com.notdroid.notnews.composables
 
-import android.view.View
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.mutableIntStateOf
+import androidx.compose.runtime.remember
 import androidx.compose.ui.tooling.preview.Preview
 import com.notdroid.notnews.db.entities.NewsApiLocalSave
-import com.notdroid.notnews.recycler.NewsController
+import kotlin.random.Random
 
 @Composable
-fun NotNewsList(news: List<Pair<NewsApiLocalSave,Boolean>>, controller: NewsController, listState: LazyListState) {
+fun NotNewsList(newsList: List<Pair<NewsApiLocalSave,Boolean>>, onClick:(NewsApiLocalSave)->Unit) {
+  val listState= rememberLazyListState()
+  val itemSize= remember { mutableIntStateOf(newsList.size)}
   LazyColumn(state=listState) {
-    items(news.size,){ key->
-      val (news,isOffline)=  news[key]
-      NotNewCard(news,controller,isOffline)
+    items(newsList.size){ key->
+      val (news,isOffline) = newsList[key]
+      NotNewCard(news,onClick,isOffline)
     }
+  }
+  
+  if(itemSize.intValue!=newsList.size){
+    if(newsList.size>itemSize.intValue&&itemSize.intValue!=0){
+      listState.requestScrollToItem(0)
+    }
+    itemSize.intValue=newsList.size
   }
 }
 
@@ -23,11 +33,6 @@ fun NotNewsList(news: List<Pair<NewsApiLocalSave,Boolean>>, controller: NewsCont
 @Composable
 private fun PreviewNotNewsList(){
   NotNewsTheme {
-    NotNewsList(PreviewUtils.generateMockApi(10).map { it to true }, controller = object :NewsController{
-      override fun isAvailableOffline(url: String, isOffline: View) {
-      }
-      override fun onTouchItem(item: NewsApiLocalSave) {
-      }
-    },rememberLazyListState())
+    NotNewsList(PreviewUtils.generateMockApi(10).map { it to (Random.nextInt()%2==0) }, {})
   }
 }

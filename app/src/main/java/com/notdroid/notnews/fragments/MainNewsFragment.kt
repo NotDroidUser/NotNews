@@ -14,16 +14,11 @@ import androidx.appcompat.widget.SearchView.OnQueryTextListener
 import androidx.core.view.MenuProvider
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
-import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation.fragment.findNavController
 import com.notdroid.notnews.R
 import com.notdroid.notnews.composables.NotNewsPage
 import com.notdroid.notnews.composables.NotNewsTheme
-import com.notdroid.notnews.composables.TheVoid
 import com.notdroid.notnews.databinding.FullComposeBinding
-import com.notdroid.notnews.db.entities.NewsApiLocalSave
-import com.notdroid.notnews.openInBrowser
-import com.notdroid.notnews.recycler.NewsController
 import com.notdroid.notnews.vm.NewsViewModel
 import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
@@ -65,16 +60,16 @@ class MainNewsFragment:Fragment() {
 
 
   override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-//    with(binding){
-//      swipe.setOnRefreshListener {
-//        if (::preferences.isInitialized){
-//          newsViewModel.loadNewData(preferences.getString(getString(R.string.api_key_preferences_key),"")!!){
-//            swipe.isRefreshing=false
-//          }
-//        }
-//      }
+    /*with(binding){
+      swipe.setOnRefreshListener {
+        if (::preferences.isInitialized){
+          newsViewModel.loadNewData(preferences.getString(getString(R.string.api_key_preferences_key),"")!!){
+            swipe.isRefreshing=false
+          }
+        }
+      }
       val controller = object : NewsController {
-        
+
         override fun onTouchItem(item: NewsApiLocalSave) {
           if (preferences.getBoolean(getString(R.string.webview_preferences_key), false)) {
             findNavController().navigate(MainNewsFragmentDirections.toSimpleWebViewFragment(url = item.url, articleImageUrl = item.urlToImage))
@@ -83,7 +78,7 @@ class MainNewsFragment:Fragment() {
             openInBrowser(activity, item.url)
           }
         }
-        
+
         override fun isAvailableOffline(url: String, isOffline: View) {
           newsViewModel.isAvailableOffline(url) { offline ->
             activity?.runOnUiThread {
@@ -92,60 +87,58 @@ class MainNewsFragment:Fragment() {
             }
           }
         }
-      }
+      }*/
       binding.root.setContent {
         NotNewsTheme {
-          val theVoid=newsViewModel.theVoidState.collectAsStateWithLifecycle(lifecycle)
-          if (theVoid.value){
-            TheVoid()
-          }else{
-            NotNewsPage(newsViewModel, controller)
+          NotNewsPage(newsViewModel,
+            onNavigate ={ item->
+            findNavController().navigate(MainNewsFragmentDirections.toSimpleWebViewFragment(url = item.url, articleImageUrl = item.urlToImage))
+          })
+        }
+      }
+    /*composableList.setContent {
+        NotNewsTheme {
+          val news by newsViewModel.filteredNewsState
+            .collectAsStateWithLifecycle(lifecycle)
+          val listState= rememberLazyListState()
+          NotNewsList(news,controller,listState)
+        }
+      }
+      binding.newsList.layoutManager=LinearLayoutManager(requireContext())
+
+      binding.newsList.adapter= NewsRecyclerAdapter(controller)
+      newsViewModel.filteredNews.observe(viewLifecycleOwner){ list->
+        (newsList.adapter as NewsRecyclerAdapter).apply {
+          val oldSize=this.currentList.size
+          submitList(list)
+          if (preferences.getBoolean(getString(R.string.move_up_key),true)){
+            if (list.size > oldSize) {
+              binding.newsList.scrollToPosition(0)
+            }
           }
         }
       }
-//      composableList.setContent {
-//        NotNewsTheme {
-//          val news by newsViewModel.filteredNewsState
-//            .collectAsStateWithLifecycle(lifecycle)
-//          val listState= rememberLazyListState()
-//          NotNewsList(news,controller,listState)
-//        }
-//      }
-//      binding.newsList.layoutManager=LinearLayoutManager(requireContext())
-
-//      binding.newsList.adapter= NewsRecyclerAdapter(controller)
-//      newsViewModel.filteredNews.observe(viewLifecycleOwner){ list->
-//        (newsList.adapter as NewsRecyclerAdapter).apply {
-//          val oldSize=this.currentList.size
-//          submitList(list)
-//          if (preferences.getBoolean(getString(R.string.move_up_key),true)){
-//            if (list.size > oldSize) {
-//              binding.newsList.scrollToPosition(0)
-//            }
-//          }
-//        }
-//      }
-//      newsViewModel.theVoid.observe(viewLifecycleOwner){isVoid->
-//        if (isVoid){
-//          if (::preferences.isInitialized) {
-//            if (!::searchView.isInitialized) {
-//              newsViewModel.loadFirstTimeData(preferences.getString(getString(R.string.api_key_preferences_key),"")?:"")
-//            }
-//          }
-//        }
-//      }
-//      newsViewModel.emptyResults.observe(viewLifecycleOwner){empty->
-//        if (empty) {
-//          thevoid.visibility = View.VISIBLE
-//          voidText.visibility = View.VISIBLE
-//          composableList.visibility = View.GONE
-//        }else{
-//          thevoid.visibility=View.GONE
-//          voidText.visibility=View.GONE
-//          composableList.visibility=View.VISIBLE
-//        }
-//      }
-//    }
+      newsViewModel.theVoid.observe(viewLifecycleOwner){isVoid->
+        if (isVoid){
+          if (::preferences.isInitialized) {
+            if (!::searchView.isInitialized) {
+              newsViewModel.loadFirstTimeData(preferences.getString(getString(R.string.api_key_preferences_key),"")?:"")
+            }
+          }
+        }
+      }
+      newsViewModel.emptyResults.observe(viewLifecycleOwner){empty->
+        if (empty) {
+          thevoid.visibility = View.VISIBLE
+          voidText.visibility = View.VISIBLE
+          composableList.visibility = View.GONE
+        }else{
+          thevoid.visibility=View.GONE
+          voidText.visibility=View.GONE
+          composableList.visibility=View.VISIBLE
+        }
+      }
+    }*/
     requireActivity().apply {
       addMenuProvider(object:MenuProvider{
 
