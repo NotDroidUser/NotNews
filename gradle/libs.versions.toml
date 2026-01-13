@@ -26,7 +26,7 @@ readabilityVer="2.0.0-jitpack-beta"
 refreshLayout="1.1.0"
 retrofit="2.11.0"
 room="2.7.1"
-
+aboutlibraries="13.2.1"
 
 [libraries]
 #androidxml
@@ -65,8 +65,8 @@ coil-compose = { group = "io.coil-kt.coil3", name = "coil-compose", version.ref 
 coil-okhttp = { group = "io.coil-kt.coil3", name = "coil-network-okhttp", version.ref = "coilKt" }
 #hilt+compose
 compose-hilt = { group="androidx.hilt", name="hilt-navigation-compose", version.ref="composeHilt" }
-
-
+#licences
+licenses={group="com.mikepenz", name="aboutlibraries-compose-m3",version.ref="aboutlibraries"}
 
 #base 64
 commons-codec = { module = "commons-codec:commons-codec", version.ref = "commonsCodecVer" }
@@ -94,3 +94,4 @@ kotlin-ksp = { id = "com.google.devtools.ksp", version.ref = "kotlinKsp" }
 android-library = { id = "com.android.library", version.ref = "agp" }
 google-dagger-hilt-android = { id = "com.google.dagger.hilt.android", version.ref = "dagger" }
 kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+licenses = {  id = "com.mikepenz.aboutlibraries.plugin.android",version.ref="aboutlibraries"}

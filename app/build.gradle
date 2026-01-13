@@ -5,6 +5,7 @@ plugins {
     alias(libs.plugins.kotlin.ksp)
     alias(libs.plugins.google.dagger.hilt.android)
     alias(libs.plugins.kotlin.compose)
+    alias(libs.plugins.licenses)
 }
 
 android {
@@ -84,12 +85,12 @@ dependencies {
     // Glide dependency
     implementation libs.glide
 
-    // For dont deppend on js script for the document
+    // For remove dependency on js script for the document
     implementation libs.readability4j
 
     // For Refreshing the layout
     implementation libs.androidx.swiperefreshlayout
-
+    implementation libs.licenses
     // Navigation libs
     implementation libs.androidx.navigation.fragment.ktx
     implementation libs.androidx.navigation.fragment
